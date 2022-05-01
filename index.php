@@ -285,38 +285,18 @@
 												<li><a href="https://github.com/DylanCerv/GownerMusic" class="button" target="_BLANK">More</a></li>
 											</ul>
 										</article>
-										
-										
-										
-										
-										
-										
-										
-										
-										<!-- <article>
-											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3>Sed etiam facilis</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+										<article>
+											<a href="https://colab.research.google.com/drive/1Quwmik0rjr5XrKyRXnxaoC8M5FlWNujQ?usp=sharing" class="image" target="_BLANK"><img src="images/herramientas-drive.JPG" alt="" /></a>
+											<h3>Herramientas para G-Drive</h3>
+											<div class="technologies">
+												<img id="technologies" src="images/Google_Colab.png" alt="colab">
+												<img id="technologies" src="images/python.png" alt="wordpress">
+											</div>
+											<p>Un Colab que realize con diferentes librarias de python y de terceros, para trabajar con archivos dentro de Google Drive, como descomprimir archivos, copiar archvios de diferentes unidades de drive, o renombrarlos, de esta manera evitar descargar los archivos que son pesasdos para trabajar con ellos.</p>
 											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
+												<li><a href="https://colab.research.google.com/drive/1Quwmik0rjr5XrKyRXnxaoC8M5FlWNujQ?usp=sharing" class="button" target="_BLANK">More</a></li>
 											</ul>
 										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3>Feugiat lorem aenean</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-											<h3>Amet varius aliquam</h3>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-											<ul class="actions">
-												<li><a href="#" class="button">More</a></li>
-											</ul>
-										</article> -->
 									</div>
 								</section>
 
