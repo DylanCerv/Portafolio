@@ -2302,3 +2302,60 @@ article span img{
   width: 65px;
 }
 
+div.skills{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div.skills .items{
+  margin: 1%;
+  text-align: center;
+  max-width: 30%;
+}
+
+div.skills .items .content-title{
+  color: #ffffff;
+  font-size: 1rem;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  border-radius: 0 10px 0 10px;
+  background-color: #6d69cf;
+  box-shadow: 0 0 50px 2px #7f6cdd4d;
+}
+
+div.skills .items .content-title h4{
+  color: #ffffff;
+  letter-spacing: 0.075rem;
+  margin: 0 10%;
+}
+
+div.skills .items .contentido{
+  margin-top: 1%;
+  border-radius: 0 10px 0 10px;
+  background-color: #f5f6f7;
+  box-shadow: 0 0 40px 5px #9179f761;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1%;
+}
+
+div.skills .items .contentido .things{
+  margin: 5%;
+  margin-bottom: 0;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.skills .items .contentido .things img#skills-img{
+  width: 100%;
+}
+
+div.skills .items .contentido .things p{
+  text-align: center;
+}

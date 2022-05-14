@@ -31,7 +31,7 @@
 
 							<!-- Header -->
 								<header id="header">
-									<a href="https://www.linkedin.com/in/dylan-españa-c-200abc/" target="_BLANK" class="logo"><strong>Web Developer</strong> BackEnd</a>
+									<a href="https://www.linkedin.com/in/dylan-españa-c-200abc/" target="_BLANK" class="logo"><strong>Web Developer</strong> Full Stack</a>
 									<!--
 										https://icon-icons.com/es/icono/linkedin/78667
 									-->
@@ -49,15 +49,20 @@
 										<header>
 											<h1>Hola!<br />
 											Soy Dylan España</h1>
-											<i><p>BackEnd</p></i>
+											<i><p>Full Stack</p></i>
 										</header>
-										<p>Desde los 17 años llevo incursionandome en el mundo de la programación, con dedicación aprendi a programar en el area de Desarrollo Web (BackEnd) y he desarrollado diversos proyectos a medida que mis conocimientos han ido creciendo. <br>
-										Tambien actualmente me encuentro aprendiendo diferentes cosas de tecnologia como de emprendimiento, algunas de ellas son: BI, AI, Negociación, Ingles y entre otras.
+										<p>Desde hace tiempo llevo incursionandome en el mundo de la programación, con dedicación aprendi a programar en el area de Desarrollo Web (BackEnd) y he desarrollado diversos proyectos a medida que mis conocimientos han ido creciendo. <br><br>
+										
+										Tambien actualmente me encuentro aprendiendo diferentes cosas de tecnologia como de emprendimiento, algunas de ellas son: BI, AI, Negociación, Ingles y entre otras habilidades.
 										Me considero una persona autodidacta y con un fuerte apego al mundo de los negocios, por este motivo me gusta aprender de todas las areas un poco.
 										</p>
 										<ul class="actions">
 											<!-- <li><a href="https://www.canva.com/design/DAE0UQV2xlA/mue-sE3FbzDdzJn23b5_zw/view?utm_content=DAE0UQV2xlA&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" class="button big" target="_BLANK"><i class="bi bi-file-earmark-pdf-fill"></i>	CV-Español</a></li> -->
-											<li><a href="PDFs/CV-C.pdf" class="button big" target="_BLANK"><i class="bi bi-file-earmark-pdf-fill"></i>	CV-Español</a></li>
+											<li><a href="PDFs/CV-B-(Español).pdf" class="button big" target="_BLANK"><i class="bi bi-file-earmark-pdf-fill"></i>	CV-Español</a></li>
+										</ul>
+										<ul class="actions">
+											<!-- <li><a href="https://www.canva.com/design/DAE0UQV2xlA/mue-sE3FbzDdzJn23b5_zw/view?utm_content=DAE0UQV2xlA&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" class="button big" target="_BLANK"><i class="bi bi-file-earmark-pdf-fill"></i>	CV-Español</a></li> -->
+											<li><a href="PDFs/CV-B-(English).pdf" class="button big" target="_BLANK"><i class="bi bi-file-earmark-pdf-fill"></i>    CV-English</a></li>
 										</ul>
 									</div>
 									<span class="image object">
@@ -70,7 +75,7 @@
 									<header class="major">
 										<h2 id="Skills">Skills</h2>
 									</header>
-									<div class="features">
+									<!-- <div class="features">
 										<article class="herramienta">
 											<span class="icon">
 												<img src="images/php.png" alt="php" class="img-fluid">
@@ -188,6 +193,106 @@
 												<p>Colab es un servicio cloud, basado en los Notebooks de Jupyter, que permite el uso gratuito de las GPUs y TPUs de Google, con librerías como: Scikit-learn, PyTorch, TensorFlow, Keras, etc...</p>
 											</div>
 										</article>
+									</div> -->
+
+									<div class="skills">
+										<div class="items">
+											<div class="content-title">
+												<h4>Lenguajes</h4>
+											</div>
+											<div class="contentido">
+												<div class="things">
+													<img id="skills-img" src="images/php.png" alt="">
+													<p>PHP</p>
+												</div>
+												<div class="things">
+													<img id="skills-img" src="images/python.png" alt="">
+													<p>Python</p>
+												</div>
+												<div class="things">
+													<img id="skills-img" src="images/html.png" alt="">
+													<p>Html</p>
+												</div>
+												<div class="things">
+													<img id="skills-img" src="images/css.png" alt="">
+													<p>Css</p>
+												</div>
+												<div class="things">
+													<img id="skills-img" src="images/Javascript.png" alt="">
+													<p>Javascript</p>
+												</div>
+												<div class="things">
+													<img id="skills-img" src="images/SQL.png" alt="">
+													<p>SQL</p>
+												</div>
+											</div>
+										</div>
+										<div class="items">
+											<div class="content-title">
+												<h4>Herramientas</h4>
+											</div>
+											<div class="contentido">
+												<div class="things">
+													<img id="skills-img" src="images/GitHub.png" alt="">
+													<p>GitHub</p>
+												</div>
+												<div class="things">
+													<img id="skills-img" src="images/Git.png" alt="">
+													<p>Git</p>
+												</div>
+												<div class="things">
+													<img id="skills-img" src="images/mysql.png" alt="" style="margin: 25% 0;">
+													<p>MySQL</p>
+												</div>
+												<div class="things">
+													<img id="skills-img" src="images/laravel.png" alt="">
+													<p>Laravel</p>
+												</div>
+												<div class="things">
+													<img id="skills-img" src="images/nodejs.png" alt="">
+													<p>Node.js</p>
+												</div>
+												<div class="things">
+													<img id="skills-img" src="images/xampp.png" alt="">
+													<p>Xampp</p>
+												</div>
+												<div class="things">
+													<img id="skills-img" src="images/composer.png" alt="">
+													<p>Composer</p>
+												</div>
+												<div class="things">
+													<img id="skills-img" src="images/Google_Colab.png" alt="">
+													<p>Google Colab</p>
+												</div>
+											</div>
+										</div>
+										<div class="items">
+											<div class="content-title">
+												<h4>Otros</h4>
+											</div>
+											<div class="contentido">
+												<div class="things">
+													<img id="skills-img" src="images/numpy.png" alt="">
+													<p>Numpy</p>
+												</div>
+												<div class="things">
+													<img id="skills-img" src="images/matplotlib.png" alt="">
+													<p>Matplotlib</p>
+												</div>
+												<div class="things">
+													<img id="skills-img" src="images/bootstrap.png" alt="">
+													<p>Bootstrap</p>
+												</div>
+												<div class="things">
+													<img id="skills-img" src="images/Figma.png" alt="">
+													<p>Figma</p>
+												</div>
+												<div class="things">
+													<img id="skills-img" src="images/Trello.png" alt="">
+													<p>Trello</p>
+												</div>
+											</div>
+										</div>
 									</div>
 								</section>
 
