@@ -51,18 +51,15 @@
 											Soy Dylan España</h1>
 											<i><p>Full Stack</p></i>
 										</header>
-										<p>Desde hace tiempo llevo incursionandome en el mundo de la programación, con dedicación aprendi a programar en el area de Desarrollo Web (BackEnd) y he desarrollado diversos proyectos a medida que mis conocimientos han ido creciendo. <br><br>
-										
-										Tambien actualmente me encuentro aprendiendo diferentes cosas de tecnologia como de emprendimiento, algunas de ellas son: BI, AI, Negociación, Ingles y entre otras habilidades.
-										Me considero una persona autodidacta y con un fuerte apego al mundo de los negocios, por este motivo me gusta aprender de todas las areas un poco.
+										<p>Desarrollador <b>Full Stack (Backend y Frontend)</b>, con cerca de <b>1 año de experiencia</b> utilizando diferentes tecnologías e implementando una estructura de <b>código limpio y escalable.</b>
+											<br><br>
+											También cuento con conocimientos de <i><b>marketing tanto tradicional como digital y del área de finanzas.</b></i> 
+											<br><br>
+											Actualmente me encuentro aprendiendo diferentes cosas de tecnología y de emprendimiento, algunas de ellas son: <b>BI, AI, Negociación, Ingles</b>, entre otras. Me considero una persona <i>autodidacta y con un fuerte apego al mundo de los negocios, por este motivo me gusta aprender de todas las áreas un poco.</i>
 										</p>
 										<ul class="actions">
-											<!-- <li><a href="https://www.canva.com/design/DAE0UQV2xlA/mue-sE3FbzDdzJn23b5_zw/view?utm_content=DAE0UQV2xlA&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" class="button big" target="_BLANK"><i class="bi bi-file-earmark-pdf-fill"></i>	CV-Español</a></li> -->
-											<li><a href="PDFs/CV-B-(Español).pdf" class="button big" target="_BLANK"><i class="bi bi-file-earmark-pdf-fill"></i>	CV-Español</a></li>
-										</ul>
-										<ul class="actions">
-											<!-- <li><a href="https://www.canva.com/design/DAE0UQV2xlA/mue-sE3FbzDdzJn23b5_zw/view?utm_content=DAE0UQV2xlA&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" class="button big" target="_BLANK"><i class="bi bi-file-earmark-pdf-fill"></i>	CV-Español</a></li> -->
-											<li><a href="PDFs/CV-B-(English).pdf" class="button big" target="_BLANK"><i class="bi bi-file-earmark-pdf-fill"></i>    CV-English</a></li>
+											<li><a href="PDFs/CV-b-(Español).pdf" class="button big" target="_BLANK"><i class="bi bi-file-earmark-pdf-fill"></i>	CV-Español</a></li>
+											<li><a href="PDFs/CV-b-(English).pdf" class="button big" target="_BLANK"><i class="bi bi-file-earmark-pdf-fill"></i>    CV-English</a></li>
 										</ul>
 									</div>
 									<span class="image object">
@@ -75,125 +72,6 @@
 									<header class="major">
 										<h2 id="Skills">Skills</h2>
 									</header>
-									<!-- <div class="features">
-										<article class="herramienta">
-											<span class="icon">
-												<img src="images/php.png" alt="php" class="img-fluid">
-											</span>
-											<div class="content">
-												<h3>PHP</h3>
-												<p>Es un lenguaje de programación que permite el desarrollo web o aplicaciones web dinámicas, el cual es apto para incrustar el lenguaje HTML. Además favorece a la conexión entre el servidor y a la interfaz del usuario.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon">
-												<img src="images/mysql.png" alt="mysql" class="img-fluid">
-											</span>
-											<div class="content">
-												<h3>MySQL</h3>
-												<p>Un sistema de gestión de bases de datos relacionales, funciona prácticamente en todas las plataformas, Linux, Windows, etc...</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon">
-												<img src="images/html.png" alt="html" class="img-fluid">
-											</span>
-											<div class="content">
-												<h3>HTML</h3>
-												<p>Es un lenguaje de marcado que nos permite indicar la estructura de nuestro documento mediante etiquetas.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon">
-												<img src="images/css.png" alt="css" class="img-fluid">
-											</span>
-											<div class="content">
-												<h3>CSS</h3>
-												<p>Es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon">
-												<img src="images/bootstrap.png" alt="bootstrap" class="img-fluid">
-											</span>
-											<div class="content">
-												<h3>Bootstrap</h3>
-												<p>Una biblioteca multiplataforma o conjunto de herramientas de código abierto para diseño de sitios y aplicaciones web.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon">
-												<img src="images/laravel.png" alt="laravel" class="img-fluid">
-											</span>
-											<div class="content">
-												<h3>Laravel</h3>
-												<p>Es un framework para desarrollar aplicaciones y servicios web con PHP 5, PHP 7 y PHP 8.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon">
-												<img src="images/wordpress.png" alt="wordpress" class="img-fluid">
-											</span>
-											<div class="content">
-												<h3>WordPress</h3>
-												<p>Es un sistema de gestión de contenidos (CMS) que permite crear y mantener un blog u otro tipo de web.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon">
-												<img src="images/python.png" alt="python" class="img-fluid">
-											</span>
-											<div class="content">
-												<h3>Python</h3>
-												<p>Es un lenguaje de programacion que es ampliamente utilizado por empresas de todo el mundo para construir aplicaciones web, analizar datos, automatizar operaciones y crear aplicaciones empresariales fiables y escalables.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon">
-												<img src="images/composer.png" alt="composer" class="img-fluid">
-											</span>
-											<div class="content">
-												<h3>Composer</h3>
-												<p>Es un sistema de gestión de paquetes para programar en PHP el cual provee los formatos estándar necesarios para manejar dependencias y librerías de PHP.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon">
-												<img src="images/Figma.png" alt="composer" class="img-fluid">
-											</span>
-											<div class="content">
-												<h3>Figma</h3>
-												<p>Figma es un editor de gráficos vectorial y una herramienta de generación de prototipos, principalmente basada en la web, con características off-line adicionales habilitadas por aplicaciones de escritorio en macOS y Windows.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon">
-												<img src="images/Trello.png" alt="composer" class="img-fluid">
-											</span>
-											<div class="content">
-												<h3>Trello</h3>
-												<p>Trello es un software de administración de proyectos con interfaz web y con cliente para iOS y android para organizar proyectos.​</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon">
-												<img src="images/Git.png" alt="composer" class="img-fluid">
-											</span>
-											<div class="content">
-												<h3>Git</h3>
-												<p>Git es un software de control de versiones, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.</p>
-											</div>
-										</article>
-										<article>
-											<span class="icon">
-												<img src="images/Google_Colab.png" alt="composer" class="img-fluid">
-											</span>
-											<div class="content">
-												<h3>Google Colab</h3>
-												<p>Colab es un servicio cloud, basado en los Notebooks de Jupyter, que permite el uso gratuito de las GPUs y TPUs de Google, con librerías como: Scikit-learn, PyTorch, TensorFlow, Keras, etc...</p>
-											</div>
-										</article>
-									</div> -->
 
 									<div class="skills">
 										<div class="items">
@@ -303,54 +181,66 @@
 									</header>
 									<div class="posts">
 										<article>
-											<a href="https://portafoliodylangowner.000webhostapp.com/portafolio/proyectos/CRUD-con-PHP/index.php" class="image" target="_BLANK"><img src="images/CRUD-PHP.JPG" alt="" /></a>
-											<h3>CRUD con PHP</h3>
+											<a href="https://github.com/DylanCerv/p-backend" class="image" target="_BLANK"><img src="images/PALaravel.JPG" alt="" /></a>
+											<h3>P-A-Laravel</h3>
 											<div class="technologies">
-												<img id="technologies" src="images/php.png" alt="PHP">
-												<img id="technologies" src="images/mysql.png" alt="MySQL">
-												<img id="technologies" src="images/html.png" alt="HTML">
-												<img id="technologies" src="images/bootstrap.png" alt="Booststrap">
-												<img id="technologies" src="images/Git.png" alt="GIT">
+												<img id="technologies" src="images/laravel.png" alt="laravel">
+												<img id="technologies" src="images/php.png" alt="php">
+												<img id="technologies" src="images/composer.png" alt="composer">
+												<img id="technologies" src="images/mysql.png" alt="mysql">
+												<img id="technologies" src="images/html.png" alt="html">
+												<img id="technologies" src="images/css.png" alt="css">
+												<img id="technologies" src="images/Git.png" alt="Git">
 											</div>
-											<p>A modelo de practicar me hice un CRUD para gestionar una lista de personas.</p>
+											<p>Un proyecto simple, donde se puede tener ordenado a las lsitas de compañias y a sus empleados.</p>
 											<ul class="actions">
-												<li><a href="https://portafoliodylangowner.000webhostapp.com/portafolio/proyectos/CRUD-con-PHP/index.php" target="_BLANK" class="button">More</a></li>
+												<li><a href="https://github.com/DylanCerv/p-backend" class="button" target="_BLANK">GitHub</a></li>
 											</ul>
+												
 										</article>
 										<article>
-											<a href="https://portafoliodylangowner.000webhostapp.com/portafolio/proyectos/concesionario-autos/index.php" class="image" target="_BLANK"><img src="images/concesionarioAutos.JPG" alt="" /></a>
-											<h3>Concesionario de Autos</h3>
+											<a href="https://portafoliodylangowner.000webhostapp.com/portafolio/proyectos/NeTech/" class="image" target="_BLANK"><img src="images/NeTech.JPG" alt="" /></a>
+											<h3>Portal de Noticias (NewTech)</h3>
 											<div class="technologies">
-												<img id="technologies" src="images/php.png" alt="PHP">
-												<img id="technologies" src="images/mysql.png" alt="MySQL">
-												<img id="technologies" src="images/html.png" alt="HTML">
-												<img id="technologies" src="images/css.png" alt="CSS">
-												<img id="technologies" src="images/bootstrap.png" alt="Booststrap">
-												<img id="technologies" src="images/Git.png" alt="GIT">
-											</div>
-											<p>Una Web Pages para poder ver el catalogo de autos de un Concesionario de diversas clases de vehiculos, tanto deportivos como clasicos.</p>
-											<ul class="actions">
-												<li><a href="https://portafoliodylangowner.000webhostapp.com/portafolio/proyectos/concesionario-autos/index.php" target="_BLANK" class="button">More</a></li>
-											</ul>
-										</article>
-										<article>
-											<a href="https://drive.google.com/file/d/1eH-HUuJ909eNg6tvDHhcn2NbkF-5juIY/view?usp=sharing" class="image" target="_BLANK"><img src="images/DonRemolo.JPG" alt="DonRemolo" /></a>
-											<h3>Don Remolo</h3>
-											<div class="technologies">
-												<img id="technologies" src="images/php.png" alt="PHP">
-												<img id="technologies" src="images/mysql.png" alt="MySQL">
-												<img id="technologies" src="images/html.png" alt="HTML">
-												<img id="technologies" src="images/css.png" alt="CSS">
-												<img id="technologies" src="images/Git.png" alt="GIT">
+												<img id="technologies" src="images/html.png" alt="html">
+												<img id="technologies" src="images/css.png" alt="css">
+												<img id="technologies" src="images/php.png" alt="php">
 												<img id="technologies" src="images/Javascript.png" alt="Javascript">
-												<img id="technologies" src="images/Figma.png" alt="Figma">
-												<img id="technologies" src="images/Trello.png" alt="Trello">
+												<img id="technologies" src="images/Git.png" alt="Git">
 											</div>
-											<p>Una pagina web que sirve para pedir pedidos via whatsapp.<br/>
-												NOTA: La pagina web solo se encuentra para movil.
-											</p>
+											<p>Es un proyecto personal que me encanto demasiado hacerlo, ya que queria tener un lugar donde poder enterarme de las cosas que suceden a nivel mundial y con filtros que me gustaran a mi, por lo cual decido crear mi propio portal de noticias donde use Api New par poder recopilar las noticias del diferenes portales que hay en el mundo.</p>
 											<ul class="actions">
-												<li><a href="proyectos/donRemolo/page/onboarding1.html"  target="_BLANK" class="button">More</a></li>
+												<li><a href="https://portafoliodylangowner.000webhostapp.com/portafolio/proyectos/NeTech/" class="button" target="_BLANK">More</a></li>
+												<li><a href="https://github.com/DylanCerv/NeTech" class="button" target="_BLANK">GitHub</a></li>
+											</ul>
+												
+										</article>
+										<article>
+											<a href="https://colab.research.google.com/drive/1Quwmik0rjr5XrKyRXnxaoC8M5FlWNujQ?usp=sharing" class="image" target="_BLANK"><img src="images/herramientas-drive.JPG" alt="" /></a>
+											<h3>Herramientas para G-Drive</h3>
+											<div class="technologies">
+												<img id="technologies" src="images/Google_Colab.png" alt="colab">
+												<img id="technologies" src="images/python.png" alt="wordpress">
+											</div>
+											<p>Un Colab que realize con diferentes librarias de python y de terceros, para trabajar con archivos dentro de Google Drive, como descomprimir archivos, copiar archvios de diferentes unidades de drive, o renombrarlos, de esta manera evitar descargar los archivos que son pesasdos para trabajar con ellos.</p>
+											<ul class="actions">
+												<li><a href="https://colab.research.google.com/drive/1Quwmik0rjr5XrKyRXnxaoC8M5FlWNujQ?usp=sharing" class="button" target="_BLANK">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="https://github.com/DylanCerv/GownerMusic" class="image" target="_BLANK"><img src="images/gownermusic.JPG" alt="" /></a>
+											<h3>Red Social (GownerMusic)</h3>
+											<div class="technologies">
+												<img id="technologies" src="images/php.png" alt="wordpress">
+												<img id="technologies" src="images/mysql.png" alt="wordpress">
+												<img id="technologies" src="images/html.png" alt="wordpress">
+												<img id="technologies" src="images/css.png" alt="wordpress">
+												<img id="technologies" src="images/Git.png" alt="wordpress">
+											</div>
+											<p>Una red social que realize con diferentes tecnologias que esta dedicada a las personas que le gusta la musica como a discograficas que buscan talentos artisticos</p><br>
+											<p>NOTA: Este proyecto aun se encuentra en proceso, pero se puede observar lo avanzando (username: po ---- password: 2)</p>
+											<ul class="actions">
+												<li><a href="https://github.com/DylanCerv/GownerMusic" class="button" target="_BLANK">GitHub</a></li>
 											</ul>
 										</article>
 										<article>
@@ -375,31 +265,56 @@
 											</ul>
 										</article>
 										<article>
-											<a href="https://github.com/DylanCerv/GownerMusic" class="image" target="_BLANK"><img src="images/gownermusic.JPG" alt="" /></a>
-											<h3>Red Social (GownerMusic)</h3>
+											<a href="https://drive.google.com/file/d/1eH-HUuJ909eNg6tvDHhcn2NbkF-5juIY/view?usp=sharing" class="image" target="_BLANK"><img src="images/DonRemolo.JPG" alt="DonRemolo" /></a>
+											<h3>Don Remolo</h3>
 											<div class="technologies">
-												<img id="technologies" src="images/php.png" alt="wordpress">
-												<img id="technologies" src="images/mysql.png" alt="wordpress">
-												<img id="technologies" src="images/html.png" alt="wordpress">
-												<img id="technologies" src="images/css.png" alt="wordpress">
-												<img id="technologies" src="images/Git.png" alt="wordpress">
+												<img id="technologies" src="images/php.png" alt="PHP">
+												<img id="technologies" src="images/mysql.png" alt="MySQL">
+												<img id="technologies" src="images/html.png" alt="HTML">
+												<img id="technologies" src="images/css.png" alt="CSS">
+												<img id="technologies" src="images/Git.png" alt="GIT">
+												<img id="technologies" src="images/Javascript.png" alt="Javascript">
+												<img id="technologies" src="images/Figma.png" alt="Figma">
+												<img id="technologies" src="images/Trello.png" alt="Trello">
 											</div>
-											<p>Una red social que realize con diferentes tecnologias que esta dedicada a las personas que le gusta la musica como a discograficas que buscan talentos artisticos</p><br>
-											<p>NOTA: Este proyecto aun se encuentra en proceso, pero se puede observar lo avanzando (username: po ---- password: 2)</p>
+											<p>Una pagina web que sirve para pedir pedidos via whatsapp.<br/>
+												NOTA: La pagina web solo se encuentra para movil.
+											</p>
 											<ul class="actions">
-												<li><a href="https://github.com/DylanCerv/GownerMusic" class="button" target="_BLANK">More</a></li>
+												<li><a href="proyectos/donRemolo/page/onboarding1.html"  target="_BLANK" class="button">GitHub</a></li>
 											</ul>
 										</article>
 										<article>
-											<a href="https://colab.research.google.com/drive/1Quwmik0rjr5XrKyRXnxaoC8M5FlWNujQ?usp=sharing" class="image" target="_BLANK"><img src="images/herramientas-drive.JPG" alt="" /></a>
-											<h3>Herramientas para G-Drive</h3>
+											<a href="https://portafoliodylangowner.000webhostapp.com/portafolio/proyectos/concesionario-autos/index.php" class="image" target="_BLANK"><img src="images/concesionarioAutos.JPG" alt="" /></a>
+											<h3>Concesionario de Autos</h3>
 											<div class="technologies">
-												<img id="technologies" src="images/Google_Colab.png" alt="colab">
-												<img id="technologies" src="images/python.png" alt="wordpress">
+												<img id="technologies" src="images/php.png" alt="PHP">
+												<img id="technologies" src="images/mysql.png" alt="MySQL">
+												<img id="technologies" src="images/html.png" alt="HTML">
+												<img id="technologies" src="images/css.png" alt="CSS">
+												<img id="technologies" src="images/bootstrap.png" alt="Booststrap">
+												<img id="technologies" src="images/Git.png" alt="GIT">
 											</div>
-											<p>Un Colab que realize con diferentes librarias de python y de terceros, para trabajar con archivos dentro de Google Drive, como descomprimir archivos, copiar archvios de diferentes unidades de drive, o renombrarlos, de esta manera evitar descargar los archivos que son pesasdos para trabajar con ellos.</p>
+											<p>Una Web Pages para poder ver el catalogo de autos de un Concesionario de diversas clases de vehiculos, tanto deportivos como clasicos.</p>
 											<ul class="actions">
-												<li><a href="https://colab.research.google.com/drive/1Quwmik0rjr5XrKyRXnxaoC8M5FlWNujQ?usp=sharing" class="button" target="_BLANK">More</a></li>
+												<li><a href="https://portafoliodylangowner.000webhostapp.com/portafolio/proyectos/concesionario-autos/index.php" target="_BLANK" class="button">More</a></li>
+												<li><a href="https://github.com/DylanCerv/Car-Dealer" target="_BLANK" class="button">GitHub</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="https://portafoliodylangowner.000webhostapp.com/portafolio/proyectos/CRUD-con-PHP/index.php" class="image" target="_BLANK"><img src="images/CRUD-PHP.JPG" alt="" /></a>
+											<h3>CRUD con PHP</h3>
+											<div class="technologies">
+												<img id="technologies" src="images/php.png" alt="PHP">
+												<img id="technologies" src="images/mysql.png" alt="MySQL">
+												<img id="technologies" src="images/html.png" alt="HTML">
+												<img id="technologies" src="images/bootstrap.png" alt="Booststrap">
+												<img id="technologies" src="images/Git.png" alt="GIT">
+											</div>
+											<p>A modelo de practicar me hice un CRUD para gestionar una lista de personas.</p>
+											<ul class="actions">
+												<li><a href="https://portafoliodylangowner.000webhostapp.com/portafolio/proyectos/CRUD-con-PHP/index.php" target="_BLANK" class="button">More</a></li>
+												<li><a href="https://github.com/DylanCerv/Task-List" target="_BLANK" class="button">GitHub</a></li>
 											</ul>
 										</article>
 									</div>
