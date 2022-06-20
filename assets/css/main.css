@@ -2405,3 +2405,13 @@ div.skills .items .contentido .things img#skills-img{
 div.skills .items .contentido .things p{
   text-align: center;
 }
+
+.items .contentido .things
+{
+    cursor: pointer;
+}
+
+.items .contentido .things #skills-img:hover
+{
+    background-color: #74c3f438;
+}

@@ -1,0 +1,118 @@
+.conatiner-dark-mode{
+    width: max-content;
+    height: max-content;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+}
+
+.conatiner-dark-mode img{
+    width: 2rem;
+    cursor: pointer;
+    border: solid 1px #fff;
+    border-radius: 5px;
+}
+
+.derecho-dark-mode-puesto{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 737px) {
+    header#header.media-header{
+        display: flex;
+    }
+}
+
+/* div#wrapper.black-mode-wrapper{
+    background-color: #121212;
+}
+div#sidebar.black-mode-sidebar{
+    background-color: #1d1d1d;
+} */
+
+div#wrapper.black-mode-wrapper{
+    background-color: rgb(14, 18, 30);
+}
+div#sidebar.black-mode-sidebar{
+    background-color: rgb(23, 27, 40);
+}
+
+
+/* 
+
+3700B3 
+bb7efd
+*/
+div#wrapper.black-mode-wrapper b,
+div#wrapper.black-mode-wrapper h1,
+div#wrapper.black-mode-wrapper h2,
+div#wrapper.black-mode-wrapper h3,
+div#wrapper.black-mode-wrapper h4,
+div#wrapper.black-mode-wrapper h5,
+div#wrapper.black-mode-wrapper strong
+{
+    color: #fff;
+}
+
+div#wrapper.black-mode-wrapper p,
+div#wrapper.black-mode-wrapper a
+{
+    color: rgb(219, 219, 219);
+}
+
+div#wrapper.black-mode-wrapper header.major > :last-child,
+div#wrapper.black-mode-wrapper #header,
+div#wrapper.black-mode-wrapper #sidebar .toggle:before
+{
+    border-color: #bb7efd;
+}
+
+div.black-mode-sidebar a.toggle
+{
+    color: #bb7efd;
+}
+
+
+div#wrapper.black-mode-wrapper input[type="submit"],
+div#wrapper.black-mode-wrapper input[type="reset"],
+div#wrapper.black-mode-wrapper input[type="button"],
+div#wrapper.black-mode-wrapper button,
+div#wrapper.black-mode-wrapper .button
+{
+    box-shadow: inset 0 0 0 2px #bb7efd;
+    color: #bb7efd !important;
+}
+
+div#wrapper.black-mode-wrapper input[type="submit"]:hover,
+div#wrapper.black-mode-wrapper input[type="reset"]:hover,
+div#wrapper.black-mode-wrapper input[type="button"]:hover,
+div#wrapper.black-mode-wrapper button:hover,
+div#wrapper.black-mode-wrapper .button:hover
+{
+    /* background-color: #b879fb21; */
+    background-color: #74c3f438;
+}
+
+
+div#wrapper.black-mode-wrapper div.skills .items .contentido
+{
+    /* background-color: #2e2e2e; */
+    background-color: rgba(23, 27, 40, 0.235);
+}
+
+div#sidebar.black-mode-sidebar ul.contact li:before
+{
+    color: #bb7efd;
+}
+
+div#sidebar.black-mode-sidebar ul li a:hover
+{
+    color: #bb7efd;
+}
+
+div#wrapper.black-mode-wrapper #menu ul a:hover, #menu ul span:hover
+{
+    color: #bb7efd;
+}
+
