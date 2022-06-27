@@ -72,7 +72,9 @@ body {
     min-width: 320px; } }
 
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 
 *, *:before, *:after {
   box-sizing: inherit; }
@@ -2301,6 +2303,7 @@ p img{
 
 ul li a img{
   width: 20px;
+  border-radius: 100%;
 }
 
 section textarea{
@@ -2365,10 +2368,10 @@ div.skills .items .content-title{
   color: #ffffff;
   font-size: 1rem;
   margin-top: 1%;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
   border-radius: 0 10px 0 10px;
-  background-color: #6d69cf;
-  box-shadow: 0 0 50px 2px #7f6cdd4d;
+  background-color: #f44336e0;
+  box-shadow: 0 1px 2px .5px #414141;
 }
 
 div.skills .items .content-title h4{
@@ -2381,7 +2384,7 @@ div.skills .items .contentido{
   margin-top: 1%;
   border-radius: 0 10px 0 10px;
   background-color: #f5f6f7;
-  box-shadow: 0 0 40px 5px #9179f761;
+  box-shadow: 0 1px 5px .5px #989898;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -2406,12 +2409,36 @@ div.skills .items .contentido .things p{
   text-align: center;
 }
 
-.items .contentido .things
-{
-    cursor: pointer;
+
+.line_botton_none_menu{
+  border-bottom: none;
 }
 
-.items .contentido .things #skills-img:hover
-{
-    background-color: #74c3f438;
+
+.icon.solid.fa-phone::before{
+  transform: rotateY(180deg);
+}
+
+li.conatiner-dark-mode{
+  padding: 0;
+}
+
+
+/* BOTON SUBIR */
+section.section-subir{
+  text-align: center;
+
+}
+
+section div.subir #link-subir-home{
+  padding: -50px;
+}
+
+section div.subir #b-subir{
+  background-color: #fff;
+  border: solid 1px #fff;
+  border-radius: 100%;
+  padding: -10px;
+  width: 6%;
+  z-index: 2;
 }
