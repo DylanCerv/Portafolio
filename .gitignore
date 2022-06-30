@@ -1,7 +1,13 @@
 assets/sass
 assets/css/mai.css
 
-
 proyectos
 PDFs/CV-B.pdf
 PDFs/DonRemolo.pdf
+
+
+# DEPLOY
+public
+.firebase
+.firebaserc
+firebase.json
