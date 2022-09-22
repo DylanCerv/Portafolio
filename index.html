@@ -10,9 +10,17 @@
 		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/main-black.css" />
+		<link rel="stylesheet" href="assets/css/particles.css" />
 	</head>
 	<body class="is-preload">
-		<div id="anim"></div>
+
+		<!-- Particules -->
+		<div id="particles-js"></div>
+
+		<!-- <div id="anim"></div> -->
+
+
+		<div class="body">
 			<div class="row">
 				<div class="col-md">
 					<header class="py-" id="Home">
@@ -218,6 +226,59 @@
 										</div>
 									</div>
 								</section>
+							<!-- Experiencias -->
+							<section class="exp">
+								<header class="major">
+									<h2 id="MyExperience" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Experiencias</h2>
+								</header>
+								<div class="posts">
+									<article data-aos="right">
+										<h3  data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500"><a href="https://www.linkedin.com/company/gesprender/" target="_blank">Gesprender</a></h3>
+										<p data-aos="flip-right"><b>Puesto desarrollado:</b> Full Stack  (Marzo 2022 - Actualmente)</p>
+										<p data-aos="flip-right"><b>Actividades Desempeñadas:</b></p>
+										<ul  data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500" class="actions">
+											<li>Corrección de problemas de la plataforma, por lado del Frontend y Backend</li>
+											<li>Creación de nuevos elementos</li>
+											<li>Creación de nuevos módulos.</li>
+										</ul>
+										<div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500" class="technologies">
+											<img id="technologies" src="images/Skills/php.png" alt="PHP">
+											<img id="technologies" src="images/Skills/react.png" alt="react">
+											<img id="technologies" src="images/Skills/Javascript.png" alt="Javascript">
+											<img id="technologies" src="images/Skills/mysql.png" alt="MySQL">
+											<img id="technologies" src="images/Skills/html.png" alt="HTML">
+											<img id="technologies" src="images/Skills/css.png" alt="CSS">
+											<img id="technologies" src="images/Skills/Postman.png" alt="Postman">
+											<img id="technologies" src="images/Skills/bootstrap.png" alt="Booststrap">
+											<img id="technologies" src="images/Skills/Jquery.png" alt="Jquery">
+											<img id="technologies" src="images/Skills/Trello.png" alt="Trello">
+											<img id="technologies" src="images/Skills/Git.png" alt="GIT">
+											<img id="technologies" src="images/Skills/Figma.png" alt="Figma">
+										</div>
+									</article>
+									<article data-aos="right">
+										<h3  data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500"><a href="https://www.linkedin.com/company/id-for-ideas" target="_blank">Id For Idea</a></h3>
+										<p data-aos="flip-right"><b>Puesto desarrollado:</b> Backend Developer PHP  (Noviembre 2021 - Marzo 2022)</p>
+										<p data-aos="flip-right"><b>Actividades Desempeñadas:</b></p>
+										<ul  data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500" class="actions">
+											<li>Creación de la lógica de elementos</li>
+											<li>Conexiones de la Base de Datos</li>
+											<li>Mantenimiento de la Base de Datos.</li>
+										</ul>
+										<div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500" class="technologies">
+											<img id="technologies" src="images/Skills/php.png" alt="PHP">
+											<img id="technologies" src="images/Skills/Javascript.png" alt="Javascript">
+											<img id="technologies" src="images/Skills/mysql.png" alt="MySQL">
+											<img id="technologies" src="images/Skills/html.png" alt="HTML">
+											<img id="technologies" src="images/Skills/css.png" alt="CSS">
+											<img id="technologies" src="images/Skills/bootstrap.png" alt="Booststrap">
+											<img id="technologies" src="images/Skills/Trello.png" alt="Trello">
+											<img id="technologies" src="images/Skills/Git.png" alt="GIT">
+											<img id="technologies" src="images/Skills/Figma.png" alt="Figma">
+										</div>
+									</article>
+								</div>
+							</section>
 							<!-- Section Projects-->
 								<section>
 									<header class="major">
@@ -278,7 +339,7 @@
 												<li><a href="https://portafoliodylangowner.000webhostapp.com/GownerMusic/" class="button" target="_BLANK">Web</a></li>
 											</ul>
 										</article>
-										<article data-aos="right">
+										<!-- <article data-aos="right">
 											<a data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500" href="https://gesprender.com/" class="image" target="_BLANK"><img src="images/Projects/GesPrender.PNG" alt="" /></a>
 											<h3 data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500">GesPrender</h3>
 											<div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500" class="technologies">
@@ -298,7 +359,7 @@
 											<ul data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500" class="actions">
 												<li><a href="https://gesprender.com/" target="_BLANK" class="button">Web</a></li>
 											</ul>
-										</article>
+										</article> -->
 										<article data-aos="left">
 											<a data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500" href="https://portafoliodylangowner.000webhostapp.com/NeTech" class="image" target="_BLANK"><img src="images/Projects/NeTech.JPG" alt="" /></a>
 											<h3 data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">NewTech</h3>
@@ -422,6 +483,7 @@
 									<ul>
 										<li><a href="#Home">Inicio</a></li>
 										<li><a href="#Skills">Habilidades</a></li>
+										<li><a href="#MyExperience">Experiencia</a></li>
 										<li><a href="#MyProjects">Mis Proyectos</a></li>
 										<li>
 									</ul>
@@ -462,7 +524,11 @@
 						</div>
 					</div>
 			</div>
-		<!-- Scripts -->
+		</div>
+		
+			<!-- Scripts -->
+			<script src="assets/js/particles/particles.min.js"></script>
+			<script src="assets/js/particles/app.js"></script>
 			<script src="assets/js/script.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>

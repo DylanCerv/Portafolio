@@ -1,0 +1,12 @@
+#particles-js{
+    height: 200vh;
+    width: 200vh;
+    position: fixed;
+    z-index: -1;
+}
+
+
+.body{
+    position: relative;
+    z-index: 1; 
+}

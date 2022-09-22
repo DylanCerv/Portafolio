@@ -2443,3 +2443,18 @@ section div.subir #b-subir{
   width: 6%;
   z-index: 2;
 }
+
+/* SECTION EXPERIENCIAS */
+
+section.exp div.posts p {
+  margin-bottom: .5rem;
+}
+
+section.exp div.posts ul {
+  display: flex;
+  flex-direction: column;
+}
+
+section.exp div.posts ul li{
+  list-style: inside;
+}
