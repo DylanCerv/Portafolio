@@ -1,8 +1,10 @@
 :root {
-    --bg_body: #0d1117;
+    --bg_body: rgba(13, 17, 23); 
+    /* --bg_body: #0d1117; */
     /* --bg_body: #294ba6; */
     /* --bg_sideBar: #5d8cd6; */
-    --bg_sideBar: #161b22;
+    --bg_sideBar: rgba(22, 27, 34); 
+    /* --bg_sideBar: #161b22; */
     --border: #425cba;
     --letra_title: #fff;
     --letra_p: rgb(219, 219, 219);
@@ -52,7 +54,10 @@
 div#sidebar.black-mode-sidebar{
     background-color: #1d1d1d;
 } */
-
+div#wrapper.black-mode-wrapper{
+    position:relative;
+    z-index: -1;
+}
 div#wrapper.black-mode-wrapper{
     background-color: rgb(14, 18, 30);
     background-color: var(--bg_body);
