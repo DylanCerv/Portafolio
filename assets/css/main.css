@@ -2425,25 +2425,6 @@ li.conatiner-dark-mode{
 }
 
 
-/* BOTON SUBIR
-section.section-subir{
-  text-align: center;
-
-}
-
-section div.subir #link-subir-home{
-  padding: -50px;
-}
-
-section div.subir #b-subir{
-  background-color: #fff;
-  border: solid 1px #fff;
-  border-radius: 100%;
-  padding: -10px;
-  width: 6%;
-  z-index: 2;
-} */
-
 /* SECTION EXPERIENCIAS */
 
 section.exp div.posts p {
@@ -2475,8 +2456,8 @@ section.exp div.posts ul li{
 .go-top-button{
   width: 0rem;
   height: 0rem;
-  background-color: #f5f6f77e;
-  box-shadow: 0 1px 5px .5px #989898;
+  background-color: rgba(245, 246, 247, 0.7);
+  box-shadow: 0 1px 3px .5px #989898;
   border-radius: 50%;
   cursor: pointer;
   top: 50%;
@@ -2524,4 +2505,12 @@ section.exp div.posts ul li{
       width: 4rem;
       height: 4rem;
   }
+}
+
+
+/* FORMULARIO */
+
+section.section-form form .contactForm{
+  background-color: #f5f6f7;
+  font-weight: 500;
 }

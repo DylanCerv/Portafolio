@@ -473,21 +473,29 @@
 										</article>
 									</div>
 								</section>
-							<!-- <section class="section-subir" data-aos="zoom-in" data-aos-duration="1000">
-									<form method="post">
+							<section class="section-form" data-aos="zoom-in" data-aos-duration="1000" id="Form">
+									<form action="https://formsubmit.co/dylanecervantes@gmail.com" method="POST">
 										<div>
-											<input type="text" name="Nombre" placeholder="Su Nombre" require>
-											<input type="text" name="Email" placeholder="Su Email" require>
-											<input type="text" name="Asunto" placeholder="Asunto" require>
-
+											<input class="contactForm" type="text" name="Nombre" placeholder="Su Nombre" require>
+										
+											<input class="contactForm" type="email" name="email" placeholder="Su Email">
+											
+											<input class="contactForm" type="text" name="Asunto" placeholder="Asunto" require>
 										</div>
-										<textarea name="Mensaje" id="" cols="30" rows="3" placeholder="Mesanje" class="margin-top:5"></textarea>
+										<textarea class="contactForm" name="Mensaje" id="" cols="30" rows="3" placeholder="Mesanje" class="margin-top:5" style="margin-bottom: 5px;"></textarea>
 										<div>
 											<input type="submit" class="text-center" id="enviar">
 										</div>
-										
+
+
+										<input type="hidden" name="_autoresponse" value="Hola, muchas gracias por ponerte en contacto conmigo, dentro de poco estare contestando tu E-mail, que tengas un lindo dia">
+										<input type="hidden" name="_subject" value="EYYYYYYY - Nuevo correo desde mi Portafolio">
+										<input type="hidden" name="_template" value="table">
+										<input type="hidden" name="_captcha" value="false">
+										<input type="hidden" name="_next" value="https://dylan-cerv.web.app/#Form">
+										<input type="text" name="_honey" style="display:none">
 									</form>
-							</section> -->
+							</section>
 						</div>
 					</div>
 				<!-- Sidebar -->
@@ -503,6 +511,7 @@
 										<li><a href="#Skills">Habilidades</a></li>
 										<li><a href="#MyExperience">Experiencia</a></li>
 										<li><a href="#MyProjects">Mis Proyectos</a></li>
+										<li><a href="#Form">Contacto</a></li>
 										<li>
 									</ul>
 								</nav>
