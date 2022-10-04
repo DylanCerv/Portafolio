@@ -2425,7 +2425,7 @@ li.conatiner-dark-mode{
 }
 
 
-/* BOTON SUBIR */
+/* BOTON SUBIR
 section.section-subir{
   text-align: center;
 
@@ -2442,7 +2442,7 @@ section div.subir #b-subir{
   padding: -10px;
   width: 6%;
   z-index: 2;
-}
+} */
 
 /* SECTION EXPERIENCIAS */
 
@@ -2457,4 +2457,71 @@ section.exp div.posts ul {
 
 section.exp div.posts ul li{
   list-style: inside;
+}
+
+
+
+/* BUTTON UP */
+
+.go-top-container{
+  position: fixed;
+  bottom: 4rem;
+  right: 4rem;
+  width: 5rem;
+  height: 5rem;
+  z-index: -1;
+}
+
+.go-top-button{
+  width: 0rem;
+  height: 0rem;
+  background-color: #f5f6f77e;
+  box-shadow: 0 1px 5px .5px #989898;
+  border-radius: 50%;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.go-top-button i{
+  position: absolute;
+  font-size: 10rem;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  color: aliceblue;
+  transition: .2s;
+  z-index: -1;
+}
+
+.show{
+  z-index: 999;
+}
+
+.show .go-top-button{
+  animation: popup .3s ease-in-out;
+  width: 3rem;
+  height: 3rem;
+  z-index: 1000;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes popup{
+  0%{
+      width: 0rem;
+      height: 0rem;
+  }
+  50%{
+      width: 6rem;
+      height: 6rem;
+  }
+  100%{
+      width: 4rem;
+      height: 4rem;
+  }
 }

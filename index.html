@@ -13,12 +13,7 @@
 		<link rel="stylesheet" href="assets/css/particles.css" />
 	</head>
 	<body class="is-preload">
-
-		<!-- Particules -->
-
 		<!-- <div id="anim"></div> -->
-
-
 		<div class="body">
 			<div class="row">
 				<div class="col-md">
@@ -478,13 +473,21 @@
 										</article>
 									</div>
 								</section>
-							<section class="section-subir" data-aos="zoom-in" data-aos-duration="1000">
-								<div class="subir" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-									<a href="#Home" id="link-subir-home">
-										<img src="images/emojins-icons/f-Subir-Gray.png" alt="" id="b-subir" style="font-size: 8rem;">
-									</a>
-								</div>
-							</section>
+							<!-- <section class="section-subir" data-aos="zoom-in" data-aos-duration="1000">
+									<form method="post">
+										<div>
+											<input type="text" name="Nombre" placeholder="Su Nombre" require>
+											<input type="text" name="Email" placeholder="Su Email" require>
+											<input type="text" name="Asunto" placeholder="Asunto" require>
+
+										</div>
+										<textarea name="Mensaje" id="" cols="30" rows="3" placeholder="Mesanje" class="margin-top:5"></textarea>
+										<div>
+											<input type="submit" class="text-center" id="enviar">
+										</div>
+										
+									</form>
+							</section> -->
 						</div>
 					</div>
 				<!-- Sidebar -->
@@ -516,19 +519,6 @@
 									<ul class="contact">
 										<li class="icon solid fa-phone"><a href="https://api.whatsapp.com/send?phone=593997237902&text=Hola%20Dylan,%20Soy%20..." target="_blank">+593 997237902</a></li>
 									</ul>
-									<!-- <form method="post">
-										<div>
-											<input type="text" name="Nombre" placeholder="Su Nombre" require>
-											<input type="text" name="Email" placeholder="Su Email" require>
-											<input type="text" name="Asunto" placeholder="Asunto" require>
-
-										</div>
-										<textarea name="Mensaje" id="" cols="30" rows="3" placeholder="Mesanje" class="margin-top:5"></textarea>
-										<div>
-											<input type="submit" class="text-center" id="enviar">
-										</div>
-										
-									</form> -->
 								</section>
 							<!-- Footer -->
 								<footer id="footer">
@@ -541,22 +531,32 @@
 			</div>
 		</div>
 		
-			<!-- Scripts -->
-			<script src="assets/js/particles/particles.min.js"></script>
-			<script src="assets/js/particles/app.js"></script>
-			<script src="assets/js/dark-mode/dark-mode.js"></script>
+		<div class="go-top-container">
+			<a href="#Home" id="button-up">
+				<div class="go-top-button">
+					<div class="fas fa-chevron-up"></div>
+				</div>
+			</a>
+		</div>
 
-			<script src="assets/js/script.js"></script>
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-			<script>
-				AOS.init({
-					duration: 500
-				});
-			</script>
+		<!-- Scripts -->
+		<script src="assets/js/particles/particles.min.js"></script>
+		<script src="assets/js/particles/app.js"></script>
+		<script src="assets/js/dark-mode/dark-mode.js"></script>
+		<script src="assets/js/buttonUp/button.js"></script>
+
+
+		<script src="assets/js/script.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				duration: 500
+			});
+		</script>
 	</body>
 </html>
