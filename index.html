@@ -8,13 +8,33 @@
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-		<link rel="stylesheet" href="assets/css/main-black.css" />
+		<link rel="stylesheet" href="assets/css/music.css" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/particles.css" />
+		<link rel="stylesheet" href="assets/css/main-black.css" />
+
+		<script src="https://kit.fontawesome.com/1ad797fec8.js" crossorigin="anonymous"></script>
+
+			<!--
+			───█───▄▀█▀▀█▀▄▄───▐█──────▄▀█▀▀█▀▄▄
+			──█───▀─▐▌──▐▌─▀▀──▐█─────▀─▐▌──▐▌─█▀
+			─▐▌──────▀▄▄▀──────▐█▄▄──────▀▄▄▀──▐▌
+			─█────────────────────▀█────────────█
+			▐█─────────────────────█▌───────────█
+			▐█─────────────────────█▌───────────█
+			─█───────────────█▄───▄█────────────█
+			─▐▌───────────────▀███▀────────────▐▌
+			──█──────────▀▄───────────▄▀───────█
+			───█───────────▀▄▄▄▄▄▄▄▄▄▀────────█
+			-->
 	</head>
-	<body class="is-preload">
-		<!-- <div id="anim"></div> -->
+	<body class="is-preload" >
+		<div class="audio-mute-container volumen-active" id="bocina-music-container">
+			<i class="fa-solid fa-volume-high"></i>
+		</div>
+
 		<div class="body">
+			<!-- PARA SUBIR AL HOME - NO LO QUITES!!!! -->
 			<div class="row">
 				<div class="col-md">
 					<header class="py-" id="Home">
@@ -26,14 +46,13 @@
 				<div id="particles-js" class=""></div>
 				<!-- Main -->
 				<div id="main">
-					
 						<div class="inner">
 							<!-- Header -->
 								<header id="header" class="media-header">
 									
 									<div class="derecho-dark-mode-puesto">
 										<!-- <div class="conatiner-dark-mode" id="img-darkmode"><img src="images/emojins-icons/icon-dark-mode.png" alt=""></div> -->
-										<a href="https://www.linkedin.com/in/dylan-españa-c-200abc/" target="_BLANK" class="logo"><strong>Web Developer</strong> Full Stack</a>
+										<a href="https://www.linkedin.com/in/dylan-espana/" target="_BLANK" class="logo"><strong>Web Developer</strong> Full Stack</a>
 									</div>
 									<!--
 										https://icon-icons.com/es/icono/linkedin/78667
@@ -41,7 +60,7 @@
 									<ul class="icons dark-mode-colocar">
 										<li><a href="https://api.whatsapp.com/send?phone=593997237902&text=Hola%20Dylan,%20Soy%20..." target="_BLANK"><img src="images/emojins-icons/whatsapp.png" alt="Whatsapp" width="18px"></a></li>
 										<li><a href="https://github.com/DylanCerv" target="_BLANK"><img src="images/Skills/GitHub.png" alt="github" width="18px"></a></li>
-										<li><a href="https://www.linkedin.com/in/dylan-españa-c-200abc/" target="_BLANK"><img src="images/emojins-icons/LinkedIn.png" alt="LinkedIn" width="18px"></a></li>
+										<li><a href="https://www.linkedin.com/in/dylan-espana/" target="_BLANK"><img src="images/emojins-icons/LinkedIn.png" alt="LinkedIn" width="18px"></a></li>
 										<li></li>
 										<li class="conatiner-dark-mode" id="img-darkmode"><img src="images/emojins-icons/icon-dark-mode.png" alt=""></li>
 										<!-- <li class="conatiner-dark-mode" id="img-EN-Lenguaje"><img src="images/emojins-icons/EN.JPG" alt=""></li>
@@ -551,9 +570,10 @@
 		<!-- Scripts -->
 		<script src="assets/js/particles/particles.min.js"></script>
 		<script src="assets/js/particles/app.js"></script>
+		
 		<script src="assets/js/dark-mode/dark-mode.js"></script>
+		<script src="assets/js/music/music.js"></script>
 		<script src="assets/js/buttonUp/button.js"></script>
-
 
 		<script src="assets/js/script.js"></script>
 		<script src="assets/js/jquery.min.js"></script>

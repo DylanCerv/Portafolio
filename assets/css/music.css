@@ -1,0 +1,27 @@
+
+.audio-mute-container{
+    position: fixed;
+    top: 1rem;
+    right: .5rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+.audio-mute-container i{
+    cursor: pointer;
+    color: #f45c5c;
+    font-size: 1.5rem;
+}
+
+i#mute{
+    color: #fca5a5;
+}
+
+@media (max-width: 736px) {
+    .audio-mute-container{
+        top: 2.5rem;
+    }
+}
