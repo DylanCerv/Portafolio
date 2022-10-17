@@ -1,4 +1,3 @@
-const img_Dark_Mode = document.querySelector('.dark-mode-colocar #img-darkmode');
 
 const dark_SideBar = document.getElementById('sidebar');
 const dark_Wrapper = document.getElementById('wrapper');
@@ -6,10 +5,11 @@ const dark_Wrapper = document.getElementById('wrapper');
 const dark_particles = document.getElementById('particles-js');
 const script_dark = document.getElementById('script-dark-particles');
 
+const buttonSwitch = document.getElementById('switch');
 
 
-
-img_Dark_Mode.addEventListener('click', ()=>{
+buttonSwitch.addEventListener('click', ()=>{
+    buttonSwitch.classList.toggle('active');
     dark_Wrapper.classList.toggle('black-mode-wrapper');
     dark_SideBar.classList.toggle('black-mode-sidebar');
     dark_particles.classList.toggle('black-particles');

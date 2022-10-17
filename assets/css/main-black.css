@@ -11,6 +11,9 @@
     --input_buttonHover: #74c3f41a;
 }
 
+
+/* BLACK */
+
 .conatiner-dark-mode{
     width: max-content;
     height: max-content;
@@ -160,4 +163,63 @@ div#wrapper.black-mode-wrapper form .contactForm:focus{
 }
 .bocina_music_container_dark i#mute{
     color: #9eb3ff;
+}
+
+/* BUTTON SWITCH CHANGE MODE */
+
+.switch{
+    background-color: #343d5b;
+    border-radius: 1000px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    border: none;
+    
+    box-shadow: none;
+    padding: inherit;
+    padding-left: .25rem;
+    padding-right: .25rem;
+    font-size: 1rem;
+    height: auto;
+}
+.switch::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: #f1f1f1;
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    transition: .3s ease all;
+    box-shadow: 0px 0px 3px 1px rgb(0,0,0,2);
+}
+.switch.active{
+    box-shadow: none !important;
+    background-color: #f44336e0;
+    color: #000;
+}
+.switch.active::after{
+    left: unset;
+    right: 0;
+}
+
+.switch span{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    background: none;
+    color: #fff;
+}
+
+button.switch:hover{
+    background-color: #343d5b;
+}
+button.switch.active:hover{
+    background-color: #f44336e0 !important;
 }
