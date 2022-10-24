@@ -13,7 +13,7 @@ const changeMode = ()=>{
     if (localStorage.getItem('mode') == 'white') {
 
         // localStorage.setItem('mode', 'white');
-        console.log('cambio a white');
+        // console.log('cambio a white');
 
         buttonSwitch.classList.remove('active');
         dark_Wrapper.classList.remove('black-mode-wrapper');
@@ -23,7 +23,7 @@ const changeMode = ()=>{
     }else{
 
         // localStorage.setItem('mode', 'dark');
-        console.log('cambio a dark');
+        // console.log('cambio a dark');
 
         buttonSwitch.classList.add('active');
         dark_Wrapper.classList.add('black-mode-wrapper');
@@ -55,7 +55,7 @@ buttonSwitch.addEventListener('click', ()=>{
     changeMode();
     
 
-    console.log(localStorage.getItem('mode'));
+    // console.log(localStorage.getItem('mode'));
 
 
     // if (conf == "dark") {

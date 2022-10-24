@@ -227,3 +227,13 @@ button.switch:hover{
 button.switch.active:hover{
     background-color: #f44336e0 !important;
 }
+
+
+/* TIPEO */
+div#wrapper.black-mode-wrapper .color {
+    background: linear-gradient(to right,#788edf, #516cca , #425cba);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: transparent; */
+  }

@@ -2514,3 +2514,13 @@ section.section-form form .contactForm{
   background-color: #f5f6f7;
   font-weight: 500;
 }
+
+
+/* tipeo */
+.color {
+  background: linear-gradient(to right,#c15858, #e05050 ,#f44336e0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* color: transparent; */
+}
