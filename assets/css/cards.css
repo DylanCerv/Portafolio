@@ -1,0 +1,35 @@
+.card {
+    height: 24.5rem;
+}
+.card .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+.card .face.front{
+    transform: perspective(600px) rotateY(0deg);
+}
+.card .face.back{
+    transform: perspective(600px) rotateY(180deg);
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 3px 10px #000;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.card .face.back h3{
+    font-size: 1.5rem;
+}
+
+.card:hover .face.face.front{
+    transform: perspective(600px) rotateY(180deg);
+}
+.card:hover .face.back{
+    transform: perspective(600px) rotateY(360deg);
+}

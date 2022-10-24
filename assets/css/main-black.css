@@ -183,12 +183,16 @@ div#wrapper.black-mode-wrapper form .contactForm:focus{
     padding-right: .25rem;
     font-size: 1rem;
     height: auto;
+
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
 }
 .switch::after{
     content: "";
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 1.5rem;
+    height: 1.5rem;
     position: absolute;
     background-color: #f1f1f1;
     top: 0;
@@ -209,7 +213,7 @@ div#wrapper.black-mode-wrapper form .contactForm:focus{
 }
 
 .switch span{
-    width: 30px;
+    width: 1.5rem;
     height: 30px;
     line-height: 30px;
     display: block;
