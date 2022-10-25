@@ -1,0 +1,96 @@
+{
+    "menu": {
+        "titleList": "<h2>Menu</h2>",
+        "contentListAbout": "About me",
+        "contentListSkill": "Skills",
+        "contentListExperience": "Experience",
+        "contentListProject": "My Projects",
+        "contentListContact": "Contact",
+
+
+        "titleContact": "Contact me",
+        "descriptionContact": "You can send me a message, either to order a project, to hire me, to suggest an improvement or even to say hello. <img id='happy' src='https://res.cloudinary.com/dnnjctymr/image/upload/v1665600317/portafolio/emojins-icons/happy_xpdfo8.png' alt='Happy' width='14px'>"
+
+    },    
+    "about": {
+        "title-name": "<p>Hello! My name is <br><i class='color'>Dylan España</i></p>",
+        "description": "I am Web Developer <b>Full Stack (Backend and Frontend)</b>, with about <b>1 year of experience</b> in development using different technologies.<br><br> I always like to implement a <b>clean and scalable code structure in my work</b>, as this facilitates future problem solving and helps with application optimization.<br>Apart from programming I also have knowledge of <b>Marketing, Finance and Investments.</b> <br><br>I consider myself a very self-taught person, so I am currently learning other programming tools and at the same time acquiring business knowledge.<br><br>If I catch your attention, don't wait any longer and <i><b>HIRE ME</b></i>, I assure you that you won't regret giving me the opportunity to belong to the team. &#128526;<br><br>I wish you a very nice week :)",
+        "cvs": "<li><a href='PDFs/CV-(En)-(Dylan_Espana_Cervantes).pdf' class='button big' target='_BLANK'><i class='bi bi-file-earmark-pdf-fill'></i>CV-English</a></li><li><a href='PDFs/CV-(Es)-(Dylan_Espana_Cervantes).pdf' class='button big' target='_BLANK'><i class='bi bi-file-earmark-pdf-fill'></i>CV-Español</a></li>"
+    },
+    "skills": {
+        "titleGeneral": "Skills",
+        "titleOther": "Others or Learning"
+
+    },
+    "experience": {
+        "titleGeneral": "Experience",
+        "activities-title": "Performed Activities:",
+
+
+        "position-gesprender": "<b>Position Held:</b>  Developer Full Stack.  (Marzo 2022 - Actualmente)",
+        "activities-gesprender1": "Layout.",
+        "activities-gesprender2": "Correction and creation of Modules and Elements.",
+        "activities-gesprender3": "Redesign of the components.",
+        "activities-gesprender4": "Creation of logic elements.",
+        "activities-gesprender5": "Creation of specific Scripts (Massive message sending, fake data)",
+        "activities-gesprender6": "Consumption and creation of APIs.",
+        "activities-gesprender7": "API fixes.",
+        "activities-gesprender8": "Database Maintenance.",
+
+
+        "position-id-for-idea": "<b>Position Held:</b> Backend Developer con PHP.(November 2021 - March 2022)",
+        "activities-id-for-idea1": "Creation of element logic.",
+        "activities-id-for-idea2": "Database Connections.",
+        "activities-id-for-idea3": "Database Maintenance."
+
+    },
+    "projects": {
+        "titleGeneral": "My Projects",
+
+        "title-Finterest": "Finterest",
+        "description-Finterest": "Finterest is a small copy of the great Pinterest page, it was made with the demo plan of knowledge in certain tools.",
+
+        "title-web-3d": "Web 3D",
+        "description-web-3d": "Landing page for beta of a platform that provides unique tools to people who work in teams.",
+
+        "title-cutly": "Cutly",
+        "description-cutly": "This job was created thinking that many link cutters carry advertising and put at risk the computer security of the people who click on the link, that's why this cutter is created that does not have advertising and is completely free.",
+
+        "title-weather-app": "Weather APP",
+        "description-weather-app": "A weather app where it shows the weather days in advance using the <i>(longitude and latitude)</i> coordinates of the required place, too; n depending on the weather the background image of the web changes will give the user a greater immersion.",
+
+        "title-gowner": "GownerMusic",
+        "description-gowner": "Gowner Music is the best social network oriented to the musical world, here you can get in touch with people who have your same artistic passion and also have the opportunity to connect with different world-class record companies that are looking for talent hidden.</br>They could change your life!!!</br></br><b>NOTE:</b> This project is still in process, but you can see how it is progressing (username: admin - --- password: admin).",
+
+        "title-NewTech": "NewTech",
+        "description-NewTech": "New Tech is a news portal where you can find out what is happening in different corners of the world, here you will have the opportunity to classify them according to your preferences: date, language, theme, among many other filters .",
+
+        "title-don-remolo": "Don Remolo",
+        "description-don-remolo": "Don Remolo is an order management platform that was developed with the needs of fast food restaurants in mind.<br/><br/><b>NOTE:</b> The website is only found for mobile.",
+
+        "title-tools": "Tools for G-Drive",
+        "description-tools": "It is a Google Colab that I create using different python and third-party libraries, to work with files inside Google Drive, such as decompressing files, copying files from different drives, among other features, this way we will avoid downloading the files that are too heavy and we can manage them as we please from the same clouds.",
+
+        "title-test-laravel": "P-A-Laravel",
+        "description-test-laravel": "A simple project, where you can keep company lists and their employees sorted.",
+
+        "title-concesionario": "Car Dealer",
+        "description-concesionario": "A Web Page to be able to see the car catalog of a Concessionaire of various kinds of vehicles, both sports and classic.",
+        
+        "title-CRUD": "CRUD with PHP",
+        "description-CRUD": "A practice model I did a CRUD to manage a list of people."
+
+
+
+    },
+    "hire": {
+        "titleGeneral": "Hire Me",
+        "input-Title-Name": "<input class='contactForm' type='text' name='Nombre' placeholder='Name' required>",
+        "input-Title-Email": "<input class='contactForm' type='email' name='email' placeholder='Email' required>",
+        "input-Title-Subject": "<input class='contactForm' type='text' name='Asunto' placeholder='Subject' required>",
+        "input-Textarea": "<textarea class='contactForm' name='Mensaje' cols='30' rows='3' placeholder='Message' class='margin-top:5' style='margin-bottom: 5px;' required></textarea>",
+        "button": "Send",
+
+        "send-Response": "<input type='hidden' name='_autoresponse' value='Hello, thank you very much for contacting me, soon I going to be answering your E-mail, have a nice day.'>"
+    }
+}

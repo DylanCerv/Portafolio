@@ -15,6 +15,7 @@
 		<!-- <link rel="stylesheet" href="assets/css/cards.css" /> -->
 
 		<script src="https://kit.fontawesome.com/1ad797fec8.js" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
 			<!--
 			───█───▄▀█▀▀█▀▄▄───▐█──────▄▀█▀▀█▀▄▄
@@ -55,22 +56,27 @@
 										<!-- <div class="conatiner-dark-mode" id="img-darkmode"><img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600317/portafolio/emojins-icons/icon-dark-mode_fntfwj.png" alt=""></div> -->
 										<a href="https://www.linkedin.com/in/dylan-espana/" target="_BLANK" class="logo"><strong>Web Developer</strong> Full Stack</a>
 									</div>
-									<!--
-										https://icon-icons.com/es/icono/linkedin/78667
-									-->
+									<!--https://icon-icons.com/es/icono/linkedin/78667-->
 									<ul class="icons dark-mode-colocar">
 										<li><a href="https://api.whatsapp.com/send?phone=593997237902&text=Hola%20Dylan,%20Soy%20..." target="_BLANK"><img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600320/portafolio/emojins-icons/whatsapp_m9q4vf.png" alt="Whatsapp" width="18px"></a></li>
-										<li><a href="https://github.com/DylanCerv" target="_BLANK"><img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600255/portafolio/Skills/GitHub_k5blow.png" alt="github" width="18px"></a></li>
+										<li><a href="https://github.com/DylanCerv" target="_BLANK"><img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1666705731/portafolio/Skills/iconfinder-github-4555889_121361_cpnqcv.svg" alt="github" width="18px"></a></li>
 										<li><a href="https://www.linkedin.com/in/dylan-espana/" target="_BLANK"><img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600318/portafolio/emojins-icons/LinkedIn_moyddp.png" alt="LinkedIn" width="18px"></a></li>
-										<li></li>
+										<li class="li-flags">
+											<ul class="flags" id="flags">
+												<li class="es" data-lenguaje="es">
+													<img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1666658517/portafolio/emojins-icons/ec_hghqzc.svg" alt="">	
+												</li>
+												<li class="en" data-lenguaje="en">
+													<img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1666658483/portafolio/emojins-icons/us_nqfw7x.svg" alt="">
+												</li>
+											</ul>
+										</li>
 										<li>
 											<button class="switch active" id="switch">
 												<span><i class="fas fa-sun"></i></span>
 												<span><i class="fa-solid fa-moon"></i></span>
 											</button>
 										</li>
-										<!-- <li class="conatiner-dark-mode" id="img-EN-Lenguaje"><img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600313/portafolio/emojins-icons/EN_iirwak.jpg" alt=""></li>
-										<li class="conatiner-dark-mode" id="img-ES-Lenguaje"><img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600314/portafolio/emojins-icons/ES_nlsd9v.jpg" alt=""></li> -->
 									</ul>
 								</header>
 
@@ -84,7 +90,7 @@
 											<span class="typed"></span>
 										</h1>
 										<div class="h1" id="cadenas-texto">
-											<h1>Habilidades</h1>
+											<h1 data-section="skills" data-value="titleGeneral">Habilidades</h1>
 										</div>
 									</header>
 									<!-- <header class="major">
@@ -93,17 +99,10 @@
 									<div class="skills">
 										<div class="items" data-aos="zoom-in-down" data-aos-anchor-placement="top-bottom">
 											<div class="content-title">
-												<h4>Lenguajes</h4>
+												<h4>Front-End</h4>
 											</div>
 											<div class="contentido">
-												<div class="things">
-													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600260/portafolio/Skills/php_ceqjmj.png" alt="">
-													<p>PHP</p>
-												</div>
-												<div class="things">
-													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600262/portafolio/Skills/python_f92mmv.png" alt="">
-													<p>Python</p>
-												</div>
+												
 												<div class="things">
 													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600254/portafolio/Skills/html_zgmfvd.png" alt="">
 													<p>Html</p>
@@ -117,13 +116,17 @@
 													<p>Sass</p>
 												</div>
 												<div class="things">
+													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600252/portafolio/Skills/bootstrap_nsaxvh.png" alt="">
+													<p>Bootstrap</p>
+												</div>
+												<div class="things">
 													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600255/portafolio/Skills/Javascript_ir84iu.png" alt="">
 													<p>Javascript</p>
 												</div>
-												<div class="things">
+												<!-- <div class="things">
 													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600264/portafolio/Skills/SQL_kw2vmq.png" alt="">
 													<p>SQL</p>
-												</div>
+												</div> -->
 												<div class="things">
 													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600256/portafolio/Skills/Jquery_y4ddgs.png" alt="">
 													<p>JQuery</p>
@@ -132,20 +135,24 @@
 													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600265/portafolio/Skills/Typescript_jz7nzs.png" alt="">
 													<p>Typescript</p>
 												</div>
+												<div class="things">
+													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600263/portafolio/Skills/react_hs6wfz.png" alt="">
+													<p>React</p>
+												</div>
 											</div>
 										</div>
 										<div class="items" data-aos="zoom-in-down" data-aos-anchor-placement="top-bottom">
 											<div class="content-title">
-												<h4>Herramientas</h4>
+												<h4>Back-End</h4>
 											</div>
 											<div class="contentido">
 												<div class="things">
-													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600255/portafolio/Skills/GitHub_k5blow.png" alt="">
-													<p>GitHub</p>
+													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600260/portafolio/Skills/php_ceqjmj.png" alt="">
+													<p>PHP</p>
 												</div>
 												<div class="things">
-													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600254/portafolio/Skills/Git_pfpg9f.png" alt="">
-													<p>Git</p>
+													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600262/portafolio/Skills/python_f92mmv.png" alt="">
+													<p>Python</p>
 												</div>
 												<div class="things">
 													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600258/portafolio/Skills/mysql_wtl0ed.png" alt="" style="margin: 25% 0;">
@@ -156,40 +163,56 @@
 													<p>Laravel</p>
 												</div>
 												<div class="things">
-													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600260/portafolio/Skills/nodejs_xc95tg.png" alt="">
+													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1666706540/portafolio/Skills/nodejs-inner_y5lfm0.png" alt="">
 													<p>Node.js</p>
-												</div>
-												<div class="things">
-													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600267/portafolio/Skills/xampp_okccaq.png" alt="">
-													<p>Xampp</p>
 												</div>
 												<div class="things">
 													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600257/portafolio/Skills/composer_nplzf6.png" alt="">
 													<p>Composer</p>
 												</div>
 												<div class="things">
-													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600255/portafolio/Skills/Google_Colab_qn2rfn.png" alt="">
-													<p>Google Colab</p>
+													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1666706365/portafolio/Skills/mongodb_compass_macos_bigsur_icon_189933_ago7gz.png" alt="">
+													<p>MongoDB</p>
 												</div>
 												<div class="things">
-													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600257/portafolio/Skills/mongodb_gsvfxe.png" alt="">
-													<p>MongoDB</p>
+													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1666706103/portafolio/Skills/symfony-logo-AA34C8FC16-seeklogo.com_b27bja.png" alt="">
+													<p>Symfony</p>
+												</div>
+												<div class="things">
+													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1666705490/portafolio/Skills/microsoft_azure_logo_icon_170956_yxplgc.svg" alt="">
+													<p>Azure</p>
+												</div>
+												<div class="things">
+													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1666705355/portafolio/Skills/postman_alt_macos_bigsur_icon_189814_ifpiof.png" alt="">
+													<p>Postman</p>
+												</div>
+												<div class="things">
+													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600267/portafolio/Skills/xampp_okccaq.png" alt="">
+													<p>Xampp</p>
+												</div>
+											</div>
+										</div>
+										<div class="items" data-aos="zoom-in-down" data-aos-anchor-placement="top-bottom">
+											<div class="content-title">
+												<h4 data-section="skills" data-value="titleOther">Otros o Aprendiendo</h4>
+											</div>
+											<div class="contentido">
+												<div class="things">
+													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600255/portafolio/Skills/Google_Colab_qn2rfn.png" alt="">
+													<p>Google Colab</p>
 												</div>
 												<div class="things">
 													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600251/portafolio/Skills/cmd_ls29c7.png" alt="">
 													<p>Wins-Lix</p>
 												</div>
 												<div class="things">
-													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600263/portafolio/Skills/react_hs6wfz.png" alt="">
-													<p>React</p>
+													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1666705731/portafolio/Skills/iconfinder-github-4555889_121361_cpnqcv.svg" alt="">
+													<p>GitHub</p>
 												</div>
-											</div>
-										</div>
-										<div class="items" data-aos="zoom-in-down" data-aos-anchor-placement="top-bottom">
-											<div class="content-title">
-												<h4>Otros</h4>
-											</div>
-											<div class="contentido">
+												<div class="things">
+													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600254/portafolio/Skills/Git_pfpg9f.png" alt="">
+													<p>Git</p>
+												</div>
 												<div class="things">
 													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600268/portafolio/Skills/numpy_t8xhlq.png" alt="">
 													<p>Numpy</p>
@@ -197,10 +220,6 @@
 												<div class="things">
 													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600263/portafolio/Skills/matplotlib_m76vcq.png" alt="">
 													<p>Matplotlib</p>
-												</div>
-												<div class="things">
-													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600252/portafolio/Skills/bootstrap_nsaxvh.png" alt="">
-													<p>Bootstrap</p>
 												</div>
 												<div class="things">
 													<img id="skills-img" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600253/portafolio/Skills/Figma_wymjqh.png" alt="">
@@ -214,27 +233,35 @@
 										</div>
 									</div>
 								</section>
-
+	
 							<!-- Section Contacto-->
 							<section class="section-form" data-aos="zoom-in" data-aos-duration="1000" id="Form">
 								<header class="major">
-									<h2 id="MyProjects" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Contratame</h2>
+									<h2 id="MyProjects" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-section="hire" data-value="titleGeneral">Contratame</h2>
 								</header>
-									<form action="https://formsubmit.co/54e29a310bf25adcba47ab1b23d4fff8" method="POST">
+									<form action="https://formsubmit.co/dylanecervantes@gmail.com" method="POST">
 										<div>
-											<input class="contactForm" type="text" name="Nombre" placeholder="Su Nombre" required>
-										
-											<input class="contactForm" type="email" name="email" placeholder="Su Email" required>
-											
-											<input class="contactForm" type="text" name="Asunto" placeholder="Asunto" required>
+											<div data-section="hire" data-value="input-Title-Name">
+												<input class="contactForm" type="text" name="Nombre" placeholder="Su Nombre" required>
+											</div>
+											<div data-section="hire" data-value="input-Title-Email">
+												<input class="contactForm" type="email" name="email" placeholder="Su Email" required>
+											</div>
+											<div data-section="hire" data-value="input-Title-Subject">
+												<input class='contactForm' type='text' name='Asunto' placeholder='Asunto' required>
+											</div>
 										</div>
-										<textarea class="contactForm" name="Mensaje" id="" cols="30" rows="3" placeholder="Mesanje" class="margin-top:5" style="margin-bottom: 5px;" required></textarea>
+										<div data-section="hire" data-value="input-Textarea">
+											<textarea class="contactForm" name="Mensaje" id="" cols="30" rows="3" placeholder="Mesanje" class="margin-top:5" style="margin-bottom: 5px;" required></textarea>
+										</div>
 										<div>
-											<input type="submit" class="text-center" id="enviar">
+											<!-- <input type="submit" class="text-center" id="enviar"> -->
+											<button type="submit" data-section="hire" data-value="button">Enviar</button>
 										</div>
 
-
-										<input type="hidden" name="_autoresponse" value="Hola, muchas gracias por ponerte en contacto conmigo, dentro de poco estare contestando tu E-mail, que tengas un lindo dia">
+										<div data-section="hire" data-value="send-Response">
+											<input type="hidden" name="_autoresponse" value="Hola, muchas gracias por ponerte en contacto conmigo, dentro de poco estare contestando tu E-mail, que tengas un lindo dia.">
+										</div>
 										<input type="hidden" name="_subject" value="EYYYYYYY - Nuevo correo desde mi Portafolio">
 										<input type="hidden" name="_template" value="table">
 										<input type="hidden" name="_captcha" value="false">
@@ -249,24 +276,24 @@
 						<div class="inner">
 							<!-- Menu -->
 								<nav id="menu" class="line_botton_none_menu" style="border-bottom: none;">
-									<header class="major">
+									<header class="major" data-section="menu" data-value="titleList">
 										<h2>Menu</h2>
 									</header>
 									<ul>
-										<li><a href="./#Home">Sobre Mi</a></li>
-										<li><a href="./skills.html">Habilidades</a></li>
-										<li><a href="./exp.html">Experiencia</a></li>
-										<li><a href="./Projects.html">Mis Proyectos</a></li>
-										<li><a href="#Form">Contacto</a></li>
+										<li><a href='./#Home' data-section="menu" data-value="contentListAbout">Sobre Mi</a></li>
+										<li><a href='./skills.html' data-section="menu" data-value="contentListSkill">Habilidades</a></li>
+										<li><a href='./exp.html' data-section="menu" data-value="contentListExperience">Experiencia</a></li>
+										<li><a href='./projects.html' data-section="menu" data-value="contentListProject">Mis Proyectos</a></li>
+										<li><a href='#Form' data-section="menu" data-value="contentListContact">Contacto</a></li>
 										<li></li>
 									</ul>
 								</nav>
 							<!-- Section Message -->
 								<section class="skills" id="skills">
-									<header class="major">
-										<h2>Contactame</h2>
+									<header class="major" >
+										<h2 data-section="menu" data-value="titleContact">Contactame</h2>
 									</header>
-									<p>Puedes enviarme un mensaje, ya sea para encargar un proyecto, para contratarme, sugerir alguna mejora o incluso saludarme. <img id="happy" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600317/portafolio/emojins-icons/happy_xpdfo8.png" alt="Happy" width="14px"></p>
+									<p data-section="menu" data-value="descriptionContact">Puedes enviarme un mensaje, ya sea para encargar un proyecto, para contratarme, sugerir alguna mejora o incluso saludarme. <img id="happy" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600317/portafolio/emojins-icons/happy_xpdfo8.png" alt="Happy" width="14px"></p>
 									<ul class="contact">
 										<li class="icon solid fa-envelope"><a href="mailto:dylanecervantes@gmail.com" target="_blank">dylanecervantes@gmail.com</a></li>
 									</ul>
@@ -294,9 +321,19 @@
 			</a>
 		</div>
 
+
+
+
+
+
 		<!-- Scripts -->
 		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-		<script src="assets/js/typ/typed.js"></script>
+
+		
+		<script src="assets/js/lenguajes/lenguaje.js"></script>
+		<div class="sss">
+			<script src="assets/js/typ/typed.js"></script>
+		</div>
 
 		<script src="assets/js/particles/particles.min.js"></script>
 		<script src="assets/js/particles/app.js"></script>
@@ -317,5 +354,6 @@
 				duration: 500
 			});
 		</script>
+
 	</body>
 </html>

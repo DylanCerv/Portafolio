@@ -2516,11 +2516,19 @@ section.section-form form .contactForm{
 }
 
 
-/* tipeo */
+/* TIPEO */
 .color {
   background: linear-gradient(to right,#c15858, #e05050 ,#f44336e0);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   /* color: transparent; */
+}
+
+
+
+/* IDIOMA */
+[data-lenguaje] img{
+  cursor: pointer;
+  height: 1.5rem;
 }

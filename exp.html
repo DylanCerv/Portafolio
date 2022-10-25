@@ -15,6 +15,7 @@
 		<!-- <link rel="stylesheet" href="assets/css/cards.css" /> -->
 
 		<script src="https://kit.fontawesome.com/1ad797fec8.js" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 
 			<!--
 			───█───▄▀█▀▀█▀▄▄───▐█──────▄▀█▀▀█▀▄▄
@@ -55,22 +56,27 @@
 										<!-- <div class="conatiner-dark-mode" id="img-darkmode"><img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600317/portafolio/emojins-icons/icon-dark-mode_fntfwj.png" alt=""></div> -->
 										<a href="https://www.linkedin.com/in/dylan-espana/" target="_BLANK" class="logo"><strong>Web Developer</strong> Full Stack</a>
 									</div>
-									<!--
-										https://icon-icons.com/es/icono/linkedin/78667
-									-->
+									<!--https://icon-icons.com/es/icono/linkedin/78667-->
 									<ul class="icons dark-mode-colocar">
 										<li><a href="https://api.whatsapp.com/send?phone=593997237902&text=Hola%20Dylan,%20Soy%20..." target="_BLANK"><img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600320/portafolio/emojins-icons/whatsapp_m9q4vf.png" alt="Whatsapp" width="18px"></a></li>
-										<li><a href="https://github.com/DylanCerv" target="_BLANK"><img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600255/portafolio/Skills/GitHub_k5blow.png" alt="github" width="18px"></a></li>
+										<li><a href="https://github.com/DylanCerv" target="_BLANK"><img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1666705731/portafolio/Skills/iconfinder-github-4555889_121361_cpnqcv.svg" alt="github" width="18px"></a></li>
 										<li><a href="https://www.linkedin.com/in/dylan-espana/" target="_BLANK"><img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600318/portafolio/emojins-icons/LinkedIn_moyddp.png" alt="LinkedIn" width="18px"></a></li>
-										<li></li>
+										<li class="li-flags">
+											<ul class="flags" id="flags">
+												<li class="es" data-lenguaje="es">
+													<img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1666658517/portafolio/emojins-icons/ec_hghqzc.svg" alt="">	
+												</li>
+												<li class="en" data-lenguaje="en">
+													<img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1666658483/portafolio/emojins-icons/us_nqfw7x.svg" alt="">
+												</li>
+											</ul>
+										</li>
 										<li>
 											<button class="switch active" id="switch">
 												<span><i class="fas fa-sun"></i></span>
 												<span><i class="fa-solid fa-moon"></i></span>
 											</button>
 										</li>
-										<!-- <li class="conatiner-dark-mode" id="img-EN-Lenguaje"><img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600313/portafolio/emojins-icons/EN_iirwak.jpg" alt=""></li>
-										<li class="conatiner-dark-mode" id="img-ES-Lenguaje"><img src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600314/portafolio/emojins-icons/ES_nlsd9v.jpg" alt=""></li> -->
 									</ul>
 								</header>
 							<!-- Experiencias -->
@@ -83,23 +89,28 @@
 										<span class="typed"></span>
 									</h1>
 									<div class="h1" id="cadenas-texto">
-										<h1>Mis Experiencias</h1>
+										<h1 data-section="experience" data-value="titleGeneral">Mis Experiencias</h1>
 									</div>
 								</header>
 								<div class="posts">
 									<article data-aos="right">
 										<h3  data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500"><a href="https://www.linkedin.com/company/gesprender/" target="_blank">Gesprender</a></h3>
-										<p data-aos="flip-right"><b>Puesto desarrollado:</b> Full Stack  (Marzo 2022 - Actualmente)</p>
-										<p data-aos="flip-right"><b>Actividades Desempeñadas:</b></p>
+										<p data-aos="flip-right" data-section="experience" data-value="position-gesprender"><b>Puesto desarrollado:</b> Full Stack  (Marzo 2022 - Actualmente)</p>
+										<p data-aos="flip-right"><b data-section="experience" data-value="activities-title">Actividades Desempeñadas:</b></p>
 										<ul  data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500" class="actions">
-											<li>Corrección de problemas de la plataforma, por lado del Frontend y Backend</li>
-											<li>Creación de nuevos elementos</li>
-											<li>Creación de nuevos módulos.</li>
+											<li data-section="experience" data-value="activities-gesprender1">Maquetación.</li>
+											<li data-section="experience" data-value="activities-gesprender2">Corrección y creación de Módulos y Elementos.</li>
+											<li data-section="experience" data-value="activities-gesprender3">Rediseño de los componentes.</li>
+											<li data-section="experience" data-value="activities-gesprender4">Creación de lógica de los elementos.</li>
+											<li data-section="experience" data-value="activities-gesprender5">Creación de Scripts (Envió masivos de mensajes, Datos fakes)</li>
+											<li data-section="experience" data-value="activities-gesprender6">Consumo y creación de APIs.</li>
+											<li data-section="experience" data-value="activities-gesprender7">Corrección de APIs.</li>
+											<li data-section="experience" data-value="activities-gesprender8">Mantenimiento de la Base de Datos.</li>
 										</ul>
 										<div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500" class="technologies">
 											<img id="technologies" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600260/portafolio/Skills/php_ceqjmj.png" alt="PHP">
 											<img id="technologies" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600263/portafolio/Skills/react_hs6wfz.png" alt="react">
-											<img id="technologies" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600266/portafolio/Skills/Symfony_bn5fhu.png" alt="Symfony">
+											<img id="technologies" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1666706103/portafolio/Skills/symfony-logo-AA34C8FC16-seeklogo.com_b27bja.png" alt="Symfony">
 											<img id="technologies" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600255/portafolio/Skills/Javascript_ir84iu.png" alt="Javascript">
 											<img id="technologies" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600262/portafolio/Skills/python_f92mmv.png" alt="python">
 											<img id="technologies" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600258/portafolio/Skills/mysql_wtl0ed.png" alt="MySQL">
@@ -108,6 +119,7 @@
 											<img id="technologies" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600269/portafolio/Skills/Postman_wurdpy.png" alt="Postman">
 											<img id="technologies" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600252/portafolio/Skills/bootstrap_nsaxvh.png" alt="Booststrap">
 											<img id="technologies" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600256/portafolio/Skills/Jquery_y4ddgs.png" alt="Jquery">
+											<img id="technologies" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1666706263/portafolio/Skills/AJAX_logo_by_gengns.svg_lb9ti9.png" alt="Ajax">
 											<img id="technologies" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600268/portafolio/Skills/Trello_pimkrj.png" alt="Trello">
 											<img id="technologies" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600254/portafolio/Skills/Git_pfpg9f.png" alt="GIT">
 											<img id="technologies" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600253/portafolio/Skills/Figma_wymjqh.png" alt="Figma">
@@ -115,12 +127,12 @@
 									</article>
 									<article data-aos="right">
 										<h3  data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500"><a href="https://www.linkedin.com/company/id-for-ideas" target="_blank">Id For Idea</a></h3>
-										<p data-aos="flip-right"><b>Puesto desarrollado:</b> Backend Developer PHP  (Noviembre 2021 - Marzo 2022)</p>
-										<p data-aos="flip-right"><b>Actividades Desempeñadas:</b></p>
+										<p data-aos="flip-right" data-section="experience" data-value="position-id-for-idea"><b>Puesto desarrollado:</b> Backend Developer PHP  (Noviembre 2021 - Marzo 2022)</p>
+										<p data-aos="flip-right"><b data-section="experience" data-value="activities-title">Actividades Desempeñadas:</b></p>
 										<ul  data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500" class="actions">
-											<li>Creación de la lógica de elementos</li>
-											<li>Conexiones de la Base de Datos</li>
-											<li>Mantenimiento de la Base de Datos.</li>
+											<li data-section="experience" data-value="activities-id-for-idea1">Creación de la lógica de elementos.</li>
+											<li data-section="experience" data-value="activities-id-for-idea2">Conexiones de la Base de Datos.</li>
+											<li data-section="experience" data-value="activities-id-for-idea3">Mantenimiento de la Base de Datos.</li>
 										</ul>
 										<div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500" class="technologies">
 											<img id="technologies" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600260/portafolio/Skills/php_ceqjmj.png" alt="PHP">
@@ -137,26 +149,36 @@
 								</div>
 							</section>
 
+								
+								
 							<!-- Section Contacto-->
 							<section class="section-form" data-aos="zoom-in" data-aos-duration="1000" id="Form">
 								<header class="major">
-									<h2 id="MyProjects" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Contratame</h2>
+									<h2 id="MyProjects" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-section="hire" data-value="titleGeneral">Contratame</h2>
 								</header>
-									<form action="https://formsubmit.co/54e29a310bf25adcba47ab1b23d4fff8" method="POST">
+									<form action="https://formsubmit.co/dylanecervantes@gmail.com" method="POST">
 										<div>
-											<input class="contactForm" type="text" name="Nombre" placeholder="Su Nombre" required>
-										
-											<input class="contactForm" type="email" name="email" placeholder="Su Email" required>
-											
-											<input class="contactForm" type="text" name="Asunto" placeholder="Asunto" required>
+											<div data-section="hire" data-value="input-Title-Name">
+												<input class="contactForm" type="text" name="Nombre" placeholder="Su Nombre" required>
+											</div>
+											<div data-section="hire" data-value="input-Title-Email">
+												<input class="contactForm" type="email" name="email" placeholder="Su Email" required>
+											</div>
+											<div data-section="hire" data-value="input-Title-Subject">
+												<input class='contactForm' type='text' name='Asunto' placeholder='Asunto' required>
+											</div>
 										</div>
-										<textarea class="contactForm" name="Mensaje" id="" cols="30" rows="3" placeholder="Mesanje" class="margin-top:5" style="margin-bottom: 5px;" required></textarea>
+										<div data-section="hire" data-value="input-Textarea">
+											<textarea class="contactForm" name="Mensaje" id="" cols="30" rows="3" placeholder="Mesanje" class="margin-top:5" style="margin-bottom: 5px;" required></textarea>
+										</div>
 										<div>
-											<input type="submit" class="text-center" id="enviar">
+											<!-- <input type="submit" class="text-center" id="enviar"> -->
+											<button type="submit" data-section="hire" data-value="button">Enviar</button>
 										</div>
 
-
-										<input type="hidden" name="_autoresponse" value="Hola, muchas gracias por ponerte en contacto conmigo, dentro de poco estare contestando tu E-mail, que tengas un lindo dia">
+										<div data-section="hire" data-value="send-Response">
+											<input type="hidden" name="_autoresponse" value="Hola, muchas gracias por ponerte en contacto conmigo, dentro de poco estare contestando tu E-mail, que tengas un lindo dia.">
+										</div>
 										<input type="hidden" name="_subject" value="EYYYYYYY - Nuevo correo desde mi Portafolio">
 										<input type="hidden" name="_template" value="table">
 										<input type="hidden" name="_captcha" value="false">
@@ -171,24 +193,24 @@
 						<div class="inner">
 							<!-- Menu -->
 								<nav id="menu" class="line_botton_none_menu" style="border-bottom: none;">
-									<header class="major">
+									<header class="major" data-section="menu" data-value="titleList">
 										<h2>Menu</h2>
 									</header>
 									<ul>
-										<li><a href="./#Home">Sobre Mi</a></li>
-										<li><a href="./skills.html">Habilidades</a></li>
-										<li><a href="./exp.html">Experiencia</a></li>
-										<li><a href="./projects.html">Mis Proyectos</a></li>
-										<li><a href="#Form">Contacto</a></li>
+										<li><a href='./#Home' data-section="menu" data-value="contentListAbout">Sobre Mi</a></li>
+										<li><a href='./skills.html' data-section="menu" data-value="contentListSkill">Habilidades</a></li>
+										<li><a href='./exp.html' data-section="menu" data-value="contentListExperience">Experiencia</a></li>
+										<li><a href='./projects.html' data-section="menu" data-value="contentListProject">Mis Proyectos</a></li>
+										<li><a href='#Form' data-section="menu" data-value="contentListContact">Contacto</a></li>
 										<li></li>
 									</ul>
 								</nav>
 							<!-- Section Message -->
 								<section class="skills" id="skills">
-									<header class="major">
-										<h2>Contactame</h2>
+									<header class="major" >
+										<h2 data-section="menu" data-value="titleContact">Contactame</h2>
 									</header>
-									<p>Puedes enviarme un mensaje, ya sea para encargar un proyecto, para contratarme, sugerir alguna mejora o incluso saludarme. <img id="happy" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600317/portafolio/emojins-icons/happy_xpdfo8.png" alt="Happy" width="14px"></p>
+									<p data-section="menu" data-value="descriptionContact">Puedes enviarme un mensaje, ya sea para encargar un proyecto, para contratarme, sugerir alguna mejora o incluso saludarme. <img id="happy" src="https://res.cloudinary.com/dnnjctymr/image/upload/v1665600317/portafolio/emojins-icons/happy_xpdfo8.png" alt="Happy" width="14px"></p>
 									<ul class="contact">
 										<li class="icon solid fa-envelope"><a href="mailto:dylanecervantes@gmail.com" target="_blank">dylanecervantes@gmail.com</a></li>
 									</ul>
@@ -216,9 +238,19 @@
 			</a>
 		</div>
 
+
+
+
+
+
 		<!-- Scripts -->
 		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-		<script src="assets/js/typ/typed.js"></script>
+
+		
+		<script src="assets/js/lenguajes/lenguaje.js"></script>
+		<div class="sss">
+			<script src="assets/js/typ/typed.js"></script>
+		</div>
 
 		<script src="assets/js/particles/particles.min.js"></script>
 		<script src="assets/js/particles/app.js"></script>
@@ -239,5 +271,6 @@
 				duration: 500
 			});
 		</script>
+
 	</body>
 </html>

@@ -1,0 +1,95 @@
+{
+    "menu": {
+        "titleList": "<h2>Menu</h2>",
+        "contentListAbout": "Sobre Mi",
+        "contentListSkill": "Habilidades",
+        "contentListExperience": "Experiencia",
+        "contentListProject": "Mis Proyectos",
+        "contentListContact": "Contacto",
+
+
+        "titleContact": "Contactame",
+        "descriptionContact": "Puedes enviarme un mensaje, ya sea para encargar un proyecto, para contratarme, sugerir alguna mejora o incluso saludarme. <img id='happy' src='https://res.cloudinary.com/dnnjctymr/image/upload/v1665600317/portafolio/emojins-icons/happy_xpdfo8.png' alt='Happy' width='14px'>"
+
+    },    
+    "about": {
+        "title-name": "<p>Hola! Me llamo <br><i class='color'>Dylan España</i></p>",
+        "description": "Soy Desarrollador Web <b>Full Stack (Backend y Frontend)</b>, con cerca de <b>1 año de experiencia</b> en el desarrollo utilizando diferentes tecnolog&iacute;as.<br><br> Me gusta siempre implementar en mis trabajos una estructura de <b>c&oacute;digo limpio y escalable</b>, ya que esto facilita resoluci&oacute;n de problemas futuros y ayuda con la optimizaci&oacute;n de la aplicaci&oacute;n.<br>Aparte de programaci&oacute;n tambi&eacute;n cuento con conocimientos de <b>Marketing, Finanzas e Inversiones.</b> <br><br>Me considero una persona muy autodidacta por lo que actualmente me encuentro aprendiendo otras herramientas de programaci&oacute;n y a la vez adquiriendo conocimientos empresariales.<br><br>Si capte tu atenci&oacute;n no esperes m&aacute;s y <i><b>CONTRATAME</b></i>, te aseguro que no te arrepentir&aacute;s de darme la oportunidad de pertenecer al equipo. &#128526;<br><br>Te deseo una muy linda semana :)",
+        "cvs": "<li><a href='PDFs/CV-(Es)-(Dylan_Espana_Cervantes).pdf' class='button big' target='_BLANK'><i class='bi bi-file-earmark-pdf-fill'></i>CV-Español</a></li><li><a href='PDFs/CV-(En)-(Dylan_Espana_Cervantes).pdf' class='button big' target='_BLANK'><i class='bi bi-file-earmark-pdf-fill'></i>CV-English</a></li>"
+    },
+    "skills": {
+        "titleGeneral": "Habilidades",
+        "titleOther": "Otros o Aprendiendo"
+    },
+    "experience": {
+        "titleGeneral": "Experiencia",
+        "activities-title": "Actividades Desempeñadas:",
+
+
+        "position-gesprender": "<b>Puesto desarrollado:</b> Desarrollador Full Stack  (Marzo 2022 - Actualmente)",
+        "activities-gesprender1": "Maquetación.",
+        "activities-gesprender2": "Corrección y creación de Módulos y Elementos.",
+        "activities-gesprender3": "Rediseño de los componentes.",
+        "activities-gesprender4": "Creación de lógica de los elementos.",
+        "activities-gesprender5": "Creación de Scripts (Envió masivos de mensajes, Datos fakes)",
+        "activities-gesprender6": "Consumo y creación de APIs.",
+        "activities-gesprender7": "Corrección de APIs.",
+        "activities-gesprender8": "Mantenimiento de la Base de Datos.",
+
+
+        "position-id-for-idea": "<b>Puesto desarrollado:</b> Desarrollador Backend con PHP (Noviembre 2021 - Marzo 2022)",
+        "activities-id-for-idea1": "Creación de la lógica de elementos.",
+        "activities-id-for-idea2": "Conexiones de la Base de Datos.",
+        "activities-id-for-idea3": "Mantenimiento de la Base de Datos."
+
+    },
+    "projects": {
+        "titleGeneral": "My Projects",
+
+        "title-Finterest": "Finterest",
+        "description-Finterest": "Finterest es una pequeña copia de la gran pagina Pinterest, se realizo con el plan de demostrar los conocimientos en ciertas herramientas",
+
+        "title-web-3d": "Web 3D",
+        "description-web-3d": "Landing page para beta de una plataforma que brinda herramientas unicas a personal que trabaja en equipo.",
+
+        "title-cutly": "Cutly",
+        "description-cutly": "Este trabajo se cre&oacute; pensando en que muchos a cortadores de links llevan consigo publicidad y pone en riesgo la seguridad inform&aacute;tica de las personas que presionan el link, por eso se cre&oacute; este a cortador que no tiene publicidad y es completamente gratuito.",
+
+        "title-weather-app": "Weather APP",
+        "description-weather-app": "Una aplicaci&oacute;n metereol&oacute;gica donde muestra el clima con d&iacute;as de antelaci&oacute;n utilizando las coordenadas de <i>(longitud y latitud)</i> del lugar requerido, tambi&eacute;n dependiendo del clima la imagen del fondo de la web cambia brindar al usuario una mayor inmersi&oacute;n.",
+
+        "title-gowner": "GownerMusic",
+        "description-gowner": "Gowner Music es la mejor red social orientada al mundo musical, aqui podras entrar en contacto con personas que tienen tu misma pasion artistica y como tambien poder tener la oportunidad de conectar con diferentes discograficas de talla mundial que busquen talento oculto.</br>Te podrian cambiar la vida !!!</br></br><b>NOTA:</b> Este proyecto aun se encuentra en proceso, pero se puede observar lo avanzando (username: admin ---- password: admin).",
+
+        "title-NewTech": "NewTech",
+        "description-NewTech": "New Tech es un portal de las noticias donde podras enterarte de lo que esta sucediendo en las diferentes rincones del mundo, aqui tendras la oportunidad de clasificarlos segun tus preferencias: fecha, idioma, tema, entre muchos otros filtros.",
+
+        "title-don-remolo": "Don Remolo",
+        "description-don-remolo": "Don Remolo es una plataforma de gestion de pedidos que fue desarrollado pensando en las necesidades de los restaurantes de comida rapida.<br/><br/><b>NOTA:</b> La pagina web solo se encuentra para movil.",
+
+        "title-tools": "Herramientas para G-Drive",
+        "description-tools": "Es un Google Colab que cree utilizando diferentes librarias de python y de terceros, para trabajar con archivos dentro de Google Drive, como descomprimir archivos, copiar archvios de diferentes unidades, entre otras funcionalidades, de esta forma evitaremos descargar los archivos que son demasiados pesados y podremos monejarlos a gusto desde las misma nube.",
+
+        "title-test-laravel": "P-A-Laravel",
+        "description-test-laravel": "Un proyecto simple, donde se puede tener ordenado a las lsitas de compañias y a sus empleados.",
+
+        "title-concesionario": "Concesionario de Autos",
+        "description-concesionario": "Una Web Pages para poder ver el catalogo de autos de un Concesionario de diversas clases de vehiculos, tanto deportivos como clasicos.",
+        
+        "title-CRUD": "CRUD con PHP",
+        "description-CRUD": "A modelo de practicar me hice un CRUD para gestionar una lista de personas."
+
+
+
+    },
+    "hire": {
+        "titleGeneral": "Contratame",
+        "input-Title-Name": "<input class='contactForm' type='text' name='Nombre' placeholder='Su Nombre' required>",
+        "input-Title-Email": "<input class='contactForm' type='email' name='email' placeholder='Su Email' required>",
+        "input-Title-Subject": "<input class='contactForm' type='text' name='Asunto' placeholder='Asunto' required>",
+        "input-Textarea": "<textarea class='contactForm' name='Mensaje' cols='30' rows='3' placeholder='Mensaje' class='margin-top:5' style='margin-bottom: 5px;' required></textarea>",
+        "button": "Enviar",
+
+        "send-Response": "<input type='hidden' name='_autoresponse' value='Hola, muchas gracias por ponerte en contacto conmigo, dentro de poco estare contestando tu E-mail, que tengas un lindo dia.'>"
+    }
+}
