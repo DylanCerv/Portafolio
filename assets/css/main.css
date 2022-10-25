@@ -2532,3 +2532,67 @@ section.section-form form .contactForm{
   cursor: pointer;
   height: 1.5rem;
 }
+
+
+/* CERTIFICADOS */
+
+.certificates{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.certificates .item{
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 5px;
+  padding: .2rem;
+  max-width: 19.5rem;
+  width: 100%;
+}
+.certificates .item .imgCertf{
+  text-align: center;
+}
+
+.certificates .item .imgCertf img{
+  width: 100%;
+}
+
+.certificates .item .contentCertf{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.certificates .item .contentCertf a{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+.certificates .item .contentCertf a i{
+  margin-top: 4px;
+}
+
+.certificates .item .contentCertf > *,
+.certificates .item .contentCertf a > *{
+  margin: 0;
+  margin-bottom: .5rem;
+}
+
+.otros{
+  /* border: 2px solid rgba(0,0,0,.125); */
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.otros a{
+  border-bottom: 2px solid  #e05050;
+  border-top: 2px solid  #e05050;
+  padding: .5rem;
+  border-radius: 10px;
+}
+.otros a:hover{
+  background-color: #e0505011;
+}

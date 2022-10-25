@@ -236,4 +236,26 @@ div#wrapper.black-mode-wrapper .color {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     /* color: transparent; */
+}
+
+
+
+/* CERTIFICADOS */
+div#wrapper.black-mode-wrapper  .certificates .item{
+    border-color: rgb(66, 92, 186, .5);
   }
+  
+  div#wrapper.black-mode-wrapper  .otros a{
+    border-color: #425cba;
+
+  }
+  div#wrapper.black-mode-wrapper  .otros a:hover{
+    background-color: rgb(66, 92, 186, 0.1);
+  }
+/* .certificates .item .contentCertf a i{
+    color: #425cba;
+} */
+div#wrapper.black-mode-wrapper .certificates .item .contentCertf a >*:hover{
+    color: #f56a6a !important;
+    font-weight: 700;
+}

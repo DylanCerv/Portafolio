@@ -5,6 +5,7 @@
         "contentListSkill": "Skills",
         "contentListExperience": "Experience",
         "contentListProject": "My Projects",
+        "contentListCertf": "Certificates",
         "contentListContact": "Contact",
 
 
@@ -82,6 +83,48 @@
 
 
 
+    },
+    "certificates": {
+        "titleGeneral": "Certificates",
+        "see": "See Credential",
+        "nada": "---",
+        "titleGeneralOthers": "Other Certificates",
+
+        "title-react-CF": "React Professional Course",
+        "date-react-CF": "02 JUL 2022 - No expiration",
+
+        "title-DB-CF": "Database Professional Course",
+        "date-DB-CF": "05 JUN 2022 - No expiration",
+
+        "title-python-CF": "Python Professional Course",
+        "date-python-CF": "05 JUN 2022 - No expiration",
+
+        "title-conoSurTech": "#YQP: Internet, Web and Programming",
+        "date-conoSurTech": "10 DEC 2021 - No expiration",
+
+        "title-Azure-Platzi-Microft": "Introduction to the Cloud with Azure",
+        "date-Azure-Platzi-Microft": "30 NOV 2021 - No expiration",
+
+        "title-Ing-Soft": "Software Engineering Fundamentals",
+        "date-Ing-Soft": "20 NOV 2021 - No expiration",
+
+        "title-Estrategia-Comercial-Udemy": "How to Write a Business Plan and Business Strategy",
+        "date-Estrategia-Comercial-Udemy": "17 OCT 2021 - No expiration",
+
+        "title-EducacionIT-SeguridadIT": "Informatic Security",
+        "date-EducacionIT-SeguridadIT": "10 SEP 2021 - No expiration",
+
+        "title-EducacionIT-PM": "Project Management",
+        "date-EducacionIT-PM": "22 SEP 2021 - No expiration",
+
+        "title-EducacionIT-SCRUM": "Project Management with Scrum",
+        "date-EducacionIT-SCRUM": "10 DEC 2021 - No expiration",
+
+        "title-EducacionIT-Leadership": "Leadership",
+        "date-EducacionIT-Leadership": "04 OCT 2021 - No expiration: ",
+
+        "title-english": "English",
+        "date-english": "S/N"
     },
     "hire": {
         "titleGeneral": "Hire Me",

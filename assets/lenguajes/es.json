@@ -5,6 +5,7 @@
         "contentListSkill": "Habilidades",
         "contentListExperience": "Experiencia",
         "contentListProject": "Mis Proyectos",
+        "contentListCertf": "Certificados",
         "contentListContact": "Contacto",
 
 
@@ -81,6 +82,48 @@
 
 
 
+    },
+    "certificates": {
+        "titleGeneral": "Cetificados",
+        "see": "Ver Credencial",
+        "nada": "---",
+        "titleGeneralOthers": "Otros Certificados",
+
+        "title-react-CF": "Curso Profesional de React",
+        "date-react-CF": "02 JUL 2022 - Sin Expericacion",
+
+        "title-DB-CF": "Curso Profesional de Base de Datos",
+        "date-DB-CF": "05 JUN 2022 - Sin Expericacion",
+
+        "title-python-CF": "Curso Profesional de Python",
+        "date-python-CF": "05 JUN 2022 - Sin Expericacion",
+
+        "title-conoSurTech": "#YQP: Internet, la Web y la Programación",
+        "date-conoSurTech": "10 DIC 2021 - Sin Expericacion",
+
+        "title-Azure-Platzi-Microft": "Introducción a la Nube con Azure",
+        "date-Azure-Platzi-Microft": "30 NOV 2021 - Sin Expericacion",
+
+        "title-Ing-Soft": "Fundamentos de Ingeniería de Software",
+        "date-Ing-Soft": "20 NOV 2021 - Sin Expericacion",
+
+        "title-Estrategia-Comercial-Udemy": "Cómo Escribir Un Plan De Negocios Y Una Estrategia Comercial",
+        "date-Estrategia-Comercial-Udemy": "17 OCT 2021 - Sin Expericacion",
+
+        "title-EducacionIT-SeguridadIT": "Seguridad Informatica",
+        "date-EducacionIT-SeguridadIT": "10 SEP 2021 - Sin Expericacion",
+
+        "title-EducacionIT-PM": "Project Management",
+        "date-EducacionIT-PM": "22 SEP 2021 - Sin Expericacion",
+
+        "title-EducacionIT-SCRUM": "Gestion de Proyectos con Scrum",
+        "date-EducacionIT-SCRUM": "10 DIC 2021 - Sin Expericacion",
+
+        "title-EducacionIT-Leadership": "Liderazgo",
+        "date-EducacionIT-Leadership": "04 OCT 2021 - Sin Expericacion: ",
+
+        "title-english": "Ingles",
+        "date-english": "S/N"
     },
     "hire": {
         "titleGeneral": "Contratame",
