@@ -15,7 +15,7 @@
     },    
     "about": {
         "title-name": "<p>Hello! My name is <br><i class='color'>Dylan España</i></p>",
-        "description": "I am Web Developer <b>Full Stack (Backend and Frontend)</b>, with about <b>1 year of experience</b> in development using different technologies.<br><br> I always like to implement a <b>clean and scalable code structure in my work</b>, as this facilitates future problem solving and helps with application optimization.<br>Apart from programming I also have knowledge of <b>Marketing, Finance and Investments.</b> <br><br>I consider myself a very self-taught person, so I am currently learning other programming tools and at the same time acquiring business knowledge.<br><br>If I catch your attention, don't wait any longer and <i><b>HIRE ME</b></i>, I assure you that you won't regret giving me the opportunity to belong to the team. &#128526;<br><br>I wish you a very nice week :)",
+        "description": "I am Web Developer <b>Full Stack (Backend and Frontend), CTO and Co-Funder of PINE</b>, with <b>1+ year of experience</b> in development using different technologies.<br><br> I always like to implement a <b>clean and scalable code structure in my work</b>, as this facilitates future problem solving and helps with application optimization.<br>Apart from programming I also have knowledge of <b>Marketing, Finance and Investments.</b> <br><br>I consider myself a very self-taught person, so I am currently learning other programming tools and at the same time acquiring business knowledge.<br><br>If I catch your attention, don't wait any longer and <i><b>HIRE ME</b></i>, I assure you that you won't regret giving me the opportunity to belong to the team. &#128526;<br><br>I wish you a very nice week :)",
         "cvs": "<li><a href='PDFs/CV-(En)-(Dylan_Espana_Cervantes).pdf' class='button big' target='_BLANK'><i class='bi bi-file-earmark-pdf-fill'></i>CV-English</a></li><li><a href='PDFs/CV-(Es)-(Dylan_Espana_Cervantes).pdf' class='button big' target='_BLANK'><i class='bi bi-file-earmark-pdf-fill'></i>CV-Español</a></li>"
     },
     "skills": {
@@ -28,7 +28,13 @@
         "activities-title": "Performed Activities:",
 
 
-        "position-gesprender": "<b>Position Held:</b>  Developer Full Stack.  (Marzo 2022 - Actualmente)",
+        "position-pine": "<b>Puesto desarrollado:</b> CTO and Co-Funder  (Currently)",
+        "activities-pine1": "Organization of platform development.",
+        "activities-pine2": "Management of the developer team.",
+        "activities-pine3": "Full Stack and BlockChain development of the MVP.",
+        "activities-pine4": "Meetings with investors and other CEOs.",
+
+        "position-gesprender": "<b>Position Held:</b>  Developer Full Stack.  (Marzo 2022 - Currently)",
         "activities-gesprender1": "Layout.",
         "activities-gesprender2": "Correction and creation of Modules and Elements.",
         "activities-gesprender3": "Redesign of the components.",

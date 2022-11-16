@@ -15,7 +15,7 @@
     },    
     "about": {
         "title-name": "<p>Hola! Me llamo <br><i class='color'>Dylan España</i></p>",
-        "description": "Soy Desarrollador Web <b>Full Stack (Backend y Frontend)</b>, con cerca de <b>1 año de experiencia</b> en el desarrollo utilizando diferentes tecnolog&iacute;as.<br><br> Me gusta siempre implementar en mis trabajos una estructura de <b>c&oacute;digo limpio y escalable</b>, ya que esto facilita resoluci&oacute;n de problemas futuros y ayuda con la optimizaci&oacute;n de la aplicaci&oacute;n.<br>Aparte de programaci&oacute;n tambi&eacute;n cuento con conocimientos de <b>Marketing, Finanzas e Inversiones.</b> <br><br>Me considero una persona muy autodidacta por lo que actualmente me encuentro aprendiendo otras herramientas de programaci&oacute;n y a la vez adquiriendo conocimientos empresariales.<br><br>Si capte tu atenci&oacute;n no esperes m&aacute;s y <i><b>CONTRATAME</b></i>, te aseguro que no te arrepentir&aacute;s de darme la oportunidad de pertenecer al equipo. &#128526;<br><br>Te deseo una muy linda semana :)",
+        "description": "Soy Desarrollador Web <b>Full Stack (Backend y Frontend), CTO y Co-Funder de PINE</b>, con <b>+1 año de experiencia</b> en el desarrollo utilizando diferentes tecnolog&iacute;as.<br><br> Me gusta siempre implementar en mis trabajos una estructura de <b>c&oacute;digo limpio y escalable</b>, ya que esto facilita resoluci&oacute;n de problemas futuros y ayuda con la optimizaci&oacute;n de la aplicaci&oacute;n.<br>Aparte de programaci&oacute;n tambi&eacute;n cuento con conocimientos de <b>Marketing, Finanzas e Inversiones.</b> <br><br>Me considero una persona muy autodidacta por lo que actualmente me encuentro aprendiendo otras herramientas de programaci&oacute;n y a la vez adquiriendo conocimientos empresariales.<br><br>Si capte tu atenci&oacute;n no esperes m&aacute;s y <i><b>CONTRATAME</b></i>, te aseguro que no te arrepentir&aacute;s de darme la oportunidad de pertenecer al equipo. &#128526;<br><br>Te deseo una muy linda semana :)",
         "cvs": "<li><a href='PDFs/CV-(Es)-(Dylan_Espana_Cervantes).pdf' class='button big' target='_BLANK'><i class='bi bi-file-earmark-pdf-fill'></i>CV-Español</a></li><li><a href='PDFs/CV-(En)-(Dylan_Espana_Cervantes).pdf' class='button big' target='_BLANK'><i class='bi bi-file-earmark-pdf-fill'></i>CV-English</a></li>"
     },
     "skills": {
@@ -26,6 +26,11 @@
         "titleGeneral": "Experiencia",
         "activities-title": "Actividades Desempeñadas:",
 
+        "position-pine": "<b>Puesto desarrollado:</b> CTO y Co-Funder  (Actualmente)",
+        "activities-pine1": "Organización del desarrollo de la plataforma.",
+        "activities-pine2": "Manejo del equipo de desarrolladores.",
+        "activities-pine3": "Desarrollo Full Stack y BlockChain del MVP.",
+        "activities-pine4": "Reuniones con inversionistas y otros CEOs.",
 
         "position-gesprender": "<b>Puesto desarrollado:</b> Desarrollador Full Stack  (Marzo 2022 - Actualmente)",
         "activities-gesprender1": "Maquetación.",
