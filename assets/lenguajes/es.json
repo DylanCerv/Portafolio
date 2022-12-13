@@ -10,12 +10,12 @@
 
 
         "titleContact": "Contactame",
-        "descriptionContact": "Puedes enviarme un mensaje, ya sea para encargar un proyecto, para contratarme, sugerir alguna mejora o incluso saludarme. <img id='happy' src='https://res.cloudinary.com/dnnjctymr/image/upload/v1665600317/portafolio/emojins-icons/happy_xpdfo8.png' alt='Happy' width='14px'>"
+        "descriptionContact": "Puedes enviarme un mensaje, ya sea para encargar un proyecto, para contratarme, sugerir alguna mejora o incluso saludarme. &#128521;"
 
     },    
     "about": {
-        "title-name": "<p>Hola! Me llamo <br><i class='color'>Dylan España</i></p>",
-        "description": "Soy Desarrollador Web <b>Full Stack (Backend y Frontend), CTO y Co-Funder de PINE</b>, con <b>+1 año de experiencia</b> en el desarrollo utilizando diferentes tecnolog&iacute;as.<br><br> Me gusta siempre implementar en mis trabajos una estructura de <b>c&oacute;digo limpio y escalable</b>, ya que esto facilita resoluci&oacute;n de problemas futuros y ayuda con la optimizaci&oacute;n de la aplicaci&oacute;n.<br>Aparte de programaci&oacute;n tambi&eacute;n cuento con conocimientos de <b>Marketing, Finanzas e Inversiones.</b> <br><br>Me considero una persona muy autodidacta por lo que actualmente me encuentro aprendiendo otras herramientas de programaci&oacute;n y a la vez adquiriendo conocimientos empresariales.<br><br>Si capte tu atenci&oacute;n no esperes m&aacute;s y <i><b>CONTRATAME</b></i>, te aseguro que no te arrepentir&aacute;s de darme la oportunidad de pertenecer al equipo. &#128526;<br><br>Te deseo una muy linda semana :)",
+        "title-name": "<h1>Hola!&#128075; Me llamo <br><i class='color'>Dylan España</i></h1>",
+        "description": "Soy Desarrollador Web <b>Full Stack (Backend y Frontend)</b>, con <b>+1 año de experiencia &#128064;</b> en el desarrollo utilizando diferentes tecnolog&iacute;as.<br><br> Me gusta siempre implementar en mis trabajos una estructura de <b>c&oacute;digo limpio y escalable &#128170;</b>, ya que esto facilita resoluci&oacute;n de problemas futuros y ayuda con la optimizaci&oacute;n de la aplicaci&oacute;n.<br>Aparte de programaci&oacute;n tambi&eacute;n cuento con conocimientos de &#128129;&#8205;&#9794;&#65039;<b>Marketing, Finanzas e Inversiones.</b><br><br>Me considero una persona muy autodidacta &#128588; ya que siempre me encuentro aprendiendo <b>herramientas y t&eacute;cnicas de programaci&oacute;n</b>, y al mismo tiempo adquiriendo conocimientos empresariales para seguir creciendo profesionalmente &#129504;.<br><br>Si pude captar tu atenci&oacute;n no esperes m&aacute;s y dame la oportunidad de <i><b>CONTRATAME</b></i>, te aseguro que no te arrepentir&aacute;s de la desici&oacute;n de poder ser parte del equipo. &#128526;<br><br>Te deseo una muy linda semana &#128512;",
         "cvs": "<li><a href='PDFs/CV-(Es)-(Dylan_Espana_Cervantes).pdf' class='button big' target='_BLANK'><i class='bi bi-file-earmark-pdf-fill'></i>CV-Español</a></li><li><a href='PDFs/CV-(En)-(Dylan_Espana_Cervantes).pdf' class='button big' target='_BLANK'><i class='bi bi-file-earmark-pdf-fill'></i>CV-English</a></li>"
     },
     "skills": {
@@ -26,11 +26,12 @@
         "titleGeneral": "Experiencia",
         "activities-title": "Actividades Desempeñadas:",
 
-        "position-pine": "<b>Puesto desarrollado:</b> CTO y Co-Funder  (Actualmente)",
+        "position-pine": "<b>Puesto desarrollado:</b> Desarrollador Full Stack",
         "activities-pine1": "Organización del desarrollo de la plataforma.",
         "activities-pine2": "Manejo del equipo de desarrolladores.",
-        "activities-pine3": "Desarrollo Full Stack y BlockChain del MVP.",
-        "activities-pine4": "Reuniones con inversionistas y otros CEOs.",
+        "activities-pine3": "Desarrollo del frontend del MVP con ReactJS.",
+        "activities-pine4": "Desarrollo del backend del MVP con NextJS (NodeJS).",
+        "activities-pine5": "Proponer mejoras para la interfaz y experiencia del usuario.",
 
         "position-gesprender": "<b>Puesto desarrollado:</b> Desarrollador Full Stack  (Marzo 2022 - Actualmente)",
         "activities-gesprender1": "Maquetación.",
