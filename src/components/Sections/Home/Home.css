@@ -1,0 +1,37 @@
+section.home {
+    background: linear-gradient(163.88deg, #346FE1 1.43%, #5844C3 93.89%);
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.25);
+    clip-path: polygon(100% 0%, 0% 0%, 0% 96%, 22% 100%, 40% 96%, 57% 95%, 79% 95%, 100% 97%);
+    min-height: 100vh;
+}
+
+.nombre {
+    font-family: var(--MonteCarlo);
+    font-size: 2.371rem;
+    line-height: 4.438rem;
+}
+.cargo{
+    font-size: 1.125rem;
+}
+
+.nombre,
+.cargo {
+    text-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+}
+
+
+.animacionUpDown{
+    animation: human-animate 4s linear infinite;
+}
+
+@keyframes human-animate {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(1.2rem);
+    }
+    0% {
+        transform: translateY(0px);
+    }
+}

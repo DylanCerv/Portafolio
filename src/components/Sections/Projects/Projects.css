@@ -1,0 +1,33 @@
+.bg-gradient-project {
+    background: linear-gradient(175.68deg, #343BE1 -20.65%, rgba(195, 68, 150, 0.64) 239.78%);
+    clip-path: polygon(
+        0% 4%,
+        11% 6%,
+        36% 3%,
+        49% 5%,
+        56% 5%,
+        70% 2%,
+        84% 3%,
+        100% 0%,
+        100% 94%,
+        77% 100%,
+        52% 95%,
+        37% 94%,
+        20% 94%,
+        10% 95%,
+        0% 97%
+    );
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: 5px 5px 0px 10px rgba(0, 0, 0);
+}
+
+.separador {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 140px;
+    background-color: #efe9f7;
+    -webkit-clip-path: polygon(74% 93%,100% 35%,100% 100%,0 100%,0 0);
+    clip-path: polygon(74% 93%,100% 35%,100% 100%,0 100%,0 0);
+}

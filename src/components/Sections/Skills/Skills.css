@@ -1,0 +1,40 @@
+.bg-gradient{
+  background: linear-gradient(175.99deg, #346FE1 17.82%, #FFFFFF 432.04%);
+  clip-path: polygon(
+    0% 3%,
+    11% 4%,
+    36% 3%,
+    49% 4%,
+    56% 4%,
+    70% 2%,
+    84% 3%,
+    100% 0%,
+    100% 96%,
+    77% 100%,
+    52% 97%,
+    37% 96%,
+    21% 96%,
+    7% 97%,
+    0% 98%
+  );
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  filter: drop-shadow(5px 5px 5px #000);
+}
+
+.skills h1 {
+    color: #fff;
+}
+
+.bg-img {
+  width: 100%;
+}
+
+.group-stack{
+  margin-bottom: 2rem;
+}
+
+.clipPath{
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  padding-bottom: 2rem;
+}

@@ -1,0 +1,113 @@
+{
+    "nav.home": "Home",
+    "nav.about-me": "Sobre mi",
+    "nav.skill": "Habilidades",
+    "nav.experience": "Experiencia",
+    "nav.project": "Proyectos",
+    "nav.contact":"Contacto",
+
+    "home.cv": "Español",
+    "home.cv.link": "En_Dylan_Espana_Cervantes.pdf",
+
+
+    "about-me.title": "Sobre Mi",
+    "about-me.paragraph1": "Hola, mi nombre es Dylan España👋, soy desarrollador Full Stack (Backend y Frontend) cuento con +1 año de experiencia utilizando 👀 diferentes tecnologias.",
+    "about-me.paragraph2": "Desarrollo con una estructura de codigo limpio y escalable 💪, ya que esto facilita resolución de problemas futuros y ayuda con la optimización de la app.",
+    "about-me.paragraph3": "Aparte de programación también cuento con conocimientos de 💁‍♂️ Marketing, Finanzas e Inversiones.",
+    "about-me.paragraph4": "Me considero una persona super autodidacta 🙌 ya que siempre me encuentro aprendiendo herramientas y técnicas de programación, y al mismo tiempo adquiriendo conocimientos empresariales para seguir creciendo profesionalmente 🧠.",
+    "about-me.paragraph5": "Si pude captar tu atención no esperes más y dame la oportunidad de CONTRATAME, te aseguro que no te arrepentirás de la desición de poder ser parte del equipo. 😎",
+    "about-me.paragraph6": "Te deseo una muy linda semana 😀",
+
+
+
+    "skill.title-general": "Habilidades",
+    "skill.other-title": "Otras",
+    "skill.other-tools": "Herramientas",
+
+
+
+    "experience.title-general": "Experiencia Profesional",
+    "experience.position-title": "Cargo: ",
+    "experience.activities-title": "Actividades Desempeñadas",
+
+
+    "experience.dueño-pine": "Compañia Propia",
+    "experience.position-pine": "Full Stack",
+    "experience.activities-pine1": "Organización del desarrollo de la plataforma.",
+    "experience.activities-pine2": "Manejo del equipo de desarrolladores.",
+    "experience.activities-pine3": "Desarrollo del frontend del MVP con ReactJS.",
+    "experience.activities-pine4": "Desarrollo del backend del MVP con NextJS (NodeJS).",
+    "experience.activities-pine5": "Proponer mejoras para la interfaz y experiencia del usuario.",
+
+    "experience.position-gesprender": "Full Stack",
+    "experience.activities-gesprender1": "Maquetación.",
+    "experience.activities-gesprender2": "Corrección y creación de Módulos y Elementos.",
+    "experience.activities-gesprender3": "Rediseño de los componentes.",
+    "experience.activities-gesprender4": "Creación de lógica de los elementos.",
+    "experience.activities-gesprender5": "Creación de Scripts (Envió masivos de mensajes, Datos fakes)",
+    "experience.activities-gesprender6": "Consumo y creación de APIs.",
+    "experience.activities-gesprender7": "Corrección de APIs.",
+    "experience.activities-gesprender8": "Mantenimiento de la Base de Datos.",
+
+    "experience.position-id-for-idea": "Backend con PHP",
+    "experience.activities-id-for-idea1": "Creación de la lógica de elementos.",
+    "experience.activities-id-for-idea2": "Conexiones de la Base de Datos.",
+    "experience.activities-id-for-idea3": "Mantenimiento de la Base de Datos.",
+
+
+
+    "project.title-general": "Mis Proyectos",
+    "project.description-general": "Estos son algunos de mis proyectos, pero estoy seguro de que cuando esté checando esto, podría estar trabajando en otros.",
+
+    "project.title-Finterest": "Finterest",
+    "project.description-Finterest": "Finterest es una pequeña copia de la gran pagina Pinterest, se realizo con el plan de demostrar los conocimientos en ciertas herramientas",
+
+    "project.title-Web-3D": "Web 3D",
+    "project.description-Web-3D": "Landing page para beta de una plataforma que brinda herramientas unicas a personal que trabaja en equipo.",
+
+    "project.title-cutly": "Cutly",
+    "project.description-cutly": "Este trabajo se creo pensando en que muchos a cortadores de links llevan consigo publicidad y pone en riesgo la seguridad informatica de las personas que presionan el link,  este acortador no tiene publicidad y es completamente gratuito.",
+
+    "project.title-WeatherApp": "Weather APP",
+    "project.description-WeatherApp": "Una aplicación metereológica donde muestra el clima con días de antelación utilizando las coordenadas de longitud y latitud del lugar requerido, también dependiendo del clima la imagen del fondo de la web cambia brindar al usuario una mayor inmersión.",
+
+    "project.title-gowner-music": "GownerMusic",
+    "project.description-gowner-music": "Gowner Music es la mejor red social orientada al mundo musical, aquí puedes ponerte en contacto con personas que tienen tu misma pasión artística y además tienes la oportunidad de conectarte con diferentes sellos discográficos de talla mundial que buscan talento oculto. ------ Podrían cambiar tu vida!!! ------ NOTA: Este proyecto aún está en progreso, pero puede ver cómo avanza (nombre de usuario: admin ---- contraseña: admin).",
+
+    "project.title-NewTech": "NewTech",
+    "project.description-NewTech": "New Tech es un portal de las noticias donde puedes enterarte de lo que esta sucediendo en los diferentes rincones del mundo.",
+
+        "project.title-don-remolo": "Don Remolo",
+        "project.description-don-remolo": "Don Remolo es una plataforma de gestion de pedidos que fue desarrollado pensando en las necesidades de los restaurantes de comida rapida.<br/><br/><b>NOTA:</b> La pagina web solo se encuentra para movil.",
+
+    "project.title-GDrive": "Herramientas para G-Drive",
+    "project.description-GDrive": "Es un Google Colab que cree utilizando diferentes librarias de python y de terceros, para trabajar con archivos dentro de Google Drive, como descomprimir archivos, copiar archvios de diferentes unidades, entre otras funcionalidades, de esta forma evitaremos descargar los archivos que son demasiados pesados y podremos monejarlos a gusto desde las misma nube.",
+
+        "project.title-test-laravel": "P-A-Laravel",
+        "project.description-test-laravel": "Un proyecto simple, donde se puede tener ordenado a las lsitas de compañias y a sus empleados.",
+
+        "project.title-concesionario": "Concesionario de Autos",
+        "project.description-concesionario": "Una Web Pages para poder ver el catalogo de autos de un Concesionario de diversas clases de vehiculos, tanto deportivos como clasicos.",
+        
+        "project.title-CRUD": "CRUD con PHP",
+        "project.description-CRUD": "A modelo de practicar me hice un CRUD para gestionar una lista de personas.",
+
+
+    
+    "contact.title-general": "Contratame",
+    "contact.description-general": "Puedes enviarme un mensaje, ya sea para encargar un proyecto, para contratarme, sugerir alguna mejora o incluso saludarme. 😀",
+    "contact.type.address": "Locación",
+    "contact.button": "Enviar",
+
+    "contact.send-Response": "<input type='hidden' name='_autoresponse' value='Hola, muchas gracias por ponerte en contacto conmigo, dentro de poco estare contestando tu E-mail, que tengas un lindo dia.'>",
+
+
+
+    "footer.home": "Home",
+    "footer.about-me": "Sobre mi",
+    "footer.skill": "Habilidades",
+    "footer.experience": "Experiencia",
+    "footer.project": "Proyectos",
+    "footer.contact": "Contacto"
+    
+}
