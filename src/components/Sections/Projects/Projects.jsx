@@ -21,7 +21,8 @@ export default function Projects() {
   const [ valueState_GownerMusic, openModal_GownerMusic, closeModal_GownerMusic ] = useModal(false);
   const [ valueState_NewTech, openModal_NewTech, closeModal_NewTech ] = useModal(false);
   const [ valueState_G_Drive, openModal_G_Drive, closeModal_G_Drive ] = useModal(false);
-
+  const [ valueState_API_NeTech, openModal_API_NeTech, closeModal_API_NeTech ] = useModal(false);
+  
   const {
     Finterest_img1, Finterest_img2,
     Web_3D_img1, Web_3D_img2,
@@ -30,6 +31,7 @@ export default function Projects() {
     Gowner_Music_img1, Gowner_Music_img2,
     NewTech_img1, NewTech_img2,
     G_Drive_img1, G_Drive_img2,
+    API_NeTech_img1, API_NeTech_img2
   } = Img_Projects;
 
   const polygon = "https://res.cloudinary.com/dnnjctymr/image/upload/v1673208560/portafolio/assets/img/Figures/polygon_hs8yjj.svg";
@@ -64,6 +66,7 @@ export default function Projects() {
                 openModal_GownerMusic = {openModal_GownerMusic}
                 openModal_NewTech = {openModal_NewTech}
                 openModal_G_Drive = {openModal_G_Drive}
+                openModal_API_NeTech = {openModal_API_NeTech}
             />
             </div>
             <div>
@@ -146,7 +149,7 @@ export default function Projects() {
                     img={NewTech_img1}
                     title={`NewTech`}
                     description={<FormattedMessage id="project.description-NewTech" />}
-                    demoLink='https://portafoliodylangowner.000webhostapp.com/NeTech/'
+                    demoLink='https://netech.vercel.app/'
                     githubLink='https://github.com/DylanCerv/NeTech'
                 >
                     <span>PHP -</span>
@@ -165,6 +168,19 @@ export default function Projects() {
                 >
                     <span>Python -</span>
                     <span>Google Colab</span>
+                </Modal>
+                <Modal
+                    valueState={valueState_API_NeTech}
+                    closeModal={closeModal_API_NeTech}
+                    img={API_NeTech_img1}
+                    title={`API NeTech`}
+                    description={<FormattedMessage id="project.description-APINewTech" />}
+                    demoLink='https://portafoliodylangowner.000webhostapp.com/NeTech-API/?apiKey=&language=us'
+                    githubLink='https://github.com/DylanCerv/NeTech/tree/api'
+                >
+                    <span>PHP -</span>
+                    <span>NEW API -</span>
+                    <span>Hosting: 000webhostapp</span>
                 </Modal>
             </div>
         </>

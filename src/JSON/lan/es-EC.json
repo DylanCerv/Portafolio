@@ -77,8 +77,8 @@
     "project.title-NewTech": "NewTech",
     "project.description-NewTech": "New Tech es un portal de las noticias donde puedes enterarte de lo que esta sucediendo en los diferentes rincones del mundo.",
 
-        "project.title-don-remolo": "Don Remolo",
-        "project.description-don-remolo": "Don Remolo es una plataforma de gestion de pedidos que fue desarrollado pensando en las necesidades de los restaurantes de comida rapida.<br/><br/><b>NOTA:</b> La pagina web solo se encuentra para movil.",
+    "project.title-APINewTech": "API NewTech",
+    "project.description-APINewTech": "Es una modificación de la NEWS API, ya que no se podia usar en produccion la api de NEWS API por lo que se realizo unos cambios en los endpoints y se creo una nueva api utilizando como sub-api la que brinda NEWS API, de esta manera se pudo usar la api en produccion sin ningun inconveniente, si se quiere utilizar para otro usuario se tendra que modificar el valor de la API KEY en el codigo principal.",
 
     "project.title-GDrive": "Herramientas para G-Drive",
     "project.description-GDrive": "Es un Google Colab que cree utilizando diferentes librarias de python y de terceros, para trabajar con archivos dentro de Google Drive, como descomprimir archivos, copiar archvios de diferentes unidades, entre otras funcionalidades, de esta forma evitaremos descargar los archivos que son demasiados pesados y podremos monejarlos a gusto desde las misma nube.",

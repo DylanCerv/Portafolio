@@ -14,9 +14,12 @@ export const Img_Projects = {
     Gowner_Music_img1: "https://res.cloudinary.com/dnnjctymr/image/upload/v1665600312/portafolio/Projects/gownermusic_f8xsgv.png",
     Gowner_Music_img2: "https://res.cloudinary.com/dnnjctymr/image/upload/v1673193764/portafolio/Projects/GownerMusic_2_howedo.png",
     
-    NewTech_img1: "https://res.cloudinary.com/dnnjctymr/image/upload/v1665600303/portafolio/Projects/NeTech_axmamu.jpg",
+    NewTech_img1: "https://res.cloudinary.com/dnnjctymr/image/upload/v1673554091/portafolio/Projects/Netech_o7fgak.png",
     NewTech_img2: "https://res.cloudinary.com/dnnjctymr/image/upload/v1672342765/portafolio/Projects/NeTech_cjydhh.png",
     
     G_Drive_img1: "https://res.cloudinary.com/dnnjctymr/image/upload/v1665600289/portafolio/Projects/herramientas-drive_pyl39a.jpg",
     G_Drive_img2: "https://res.cloudinary.com/dnnjctymr/image/upload/v1673193743/portafolio/Projects/GD_tools_2_yzqwk0.png",
+    
+    API_NeTech_img1: "https://res.cloudinary.com/dnnjctymr/image/upload/v1673554463/portafolio/Projects/Netech_API1_iohsm8.png",
+    API_NeTech_img2: "https://res.cloudinary.com/dnnjctymr/image/upload/v1673554466/portafolio/Projects/Netech_API2_lyipn6.png",
 }
