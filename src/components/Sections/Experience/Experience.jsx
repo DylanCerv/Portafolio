@@ -16,7 +16,7 @@ export default function Experience() {
             <FormattedMessage id="experience.title-general" />
           </h1>
           <div className="md:grid grid-cols-2 gap-10 mt-10">
-            <Trabajo
+            {/* <Trabajo
               empresa="PINE"
               cargo={<FormattedMessage id="experience.position-pine" />}
               fecha="(10/2022 - ACTUAL)"
@@ -37,12 +37,13 @@ export default function Experience() {
               <li>
                 <FormattedMessage id="experience.activities-pine5" />
               </li>
-            </Trabajo>
+            </Trabajo> */}
             <Trabajo
               empresa="GESPRENDER"
               cargo={<FormattedMessage id="experience.position-gesprender" />}
               fecha="(03/2022 - ACTUAL)"
               dueño=""
+              technologies="PHP / Symfony / React / HTML / CSS / Jquery / AJAX / MySQL / Python / Postman / Boostrap / JavaScript"
             >
               <li>
                 <FormattedMessage id="experience.activities-gesprender1" />
@@ -74,6 +75,7 @@ export default function Experience() {
               cargo={<FormattedMessage id="experience.position-id-for-idea" />}
               fecha="(11/2021 - 03/2022)"
               dueño=""
+              technologies="PHP / HTML / CSS / MySQL / Boostrap / JavaScript"
             >
               <li>
                 <FormattedMessage id="experience.activities-id-for-idea1" />

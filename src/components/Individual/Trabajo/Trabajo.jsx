@@ -2,8 +2,9 @@ import React from 'react'
 import "./Trabajo.css"
 import { FormattedMessage } from 'react-intl'
 
-export default function Trabajo({empresa, cargo, fecha, children, dueño}) {
+export default function Trabajo({empresa, cargo, fecha, children, dueño, technologies}) {
 
+  
     
 
   return (
@@ -18,7 +19,7 @@ export default function Trabajo({empresa, cargo, fecha, children, dueño}) {
             </h2>
             <span className='text-[0.65rem]'>{fecha}</span>
         </div>
-        <div>
+        <div className='mb-2'>
             <h2 className='mb-1'>
               <FormattedMessage 
                 id="experience.activities-title"
@@ -27,6 +28,16 @@ export default function Trabajo({empresa, cargo, fecha, children, dueño}) {
             <ul>
                 {children}
             </ul>
+        </div>
+        <div>
+        <h2 className='mb-1'>
+              <FormattedMessage 
+                id="experience.technologies-title"
+              />
+            </h2>
+            <div>
+              <p>{technologies}</p>
+            </div>
         </div>
     </div>
   )
