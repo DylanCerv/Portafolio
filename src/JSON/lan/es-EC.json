@@ -10,13 +10,17 @@
     "home.cv.link": "En_Dylan_Espana_Cervantes.pdf",
 
 
+    "text": "A pesar de solo tener +1 años de experiencia en el desarrollo de software, mi objetivo siempre ha sido convertirme en un líder técnico en mi campo 💼. Entiendo que para llegar a ese nivel es necesario seguir aprendiendo y creciendo en mi carrera 🧠. En mi corto plazo, mi objetivo es rodearme de profesionales experimentados 💪 y aprender de ellos para desarrollar las habilidades y conocimientos necesarios para alcanzar mi meta a largo plazo. Me esfuerzo por buscar oportunidades de trabajar en equipos con líderes en mi campo 💻 y aprovechar al máximo cada oportunidad para aprender de su experiencia y conocimiento 📚. A pesar de mi corta experiencia, estoy seguro de que esta filosofía me ayudará a desarrollar las habilidades y conocimientos necesarios para alcanzar mi objetivo a largo plazo de convertirme en un líder técnico 🚀",
+
     "about-me.title": "Sobre Mi",
-    "about-me.paragraph1": "Hola, mi nombre es Dylan España👋, soy desarrollador Full Stack (Backend y Frontend) cuento con +1 año de experiencia utilizando 👀 diferentes tecnologias.",
-    "about-me.paragraph2": "Desarrollo con una estructura de codigo limpio y escalable 💪, ya que esto facilita resolución de problemas futuros y ayuda con la optimización de la app.",
-    "about-me.paragraph3": "Aparte de programación también cuento con conocimientos de 💁‍♂️ Marketing, Finanzas e Inversiones.",
-    "about-me.paragraph4": "Me considero una persona super autodidacta 🙌 ya que siempre me encuentro aprendiendo herramientas y técnicas de programación, y al mismo tiempo adquiriendo conocimientos empresariales para seguir creciendo profesionalmente 🧠.",
-    "about-me.paragraph5": "Si pude captar tu atención no esperes más y dame la oportunidad de CONTRATAME, te aseguro que no te arrepentirás de la desición de poder ser parte del equipo. 😎",
-    "about-me.paragraph6": "Te deseo una muy linda semana 😀",
+    "about-me.paragraph1": "¡Hola! Soy Dylan España 🙋‍♂️ y cuento con +1 de experiencia como Desarrollador Full Stack. He desarrollado aplicaciones web utilizando tecnologías como PHP, MySQL, NextJS, React, entre otras. Mi enfoque en el desarrollo se basa en crear una estructura de código limpia y escalable 🚀, lo que facilita la resolución de problemas futuros y ayuda a optimizar la aplicación.",
+    "about-me.paragraph2": "A pesar del tiempo que tengo en el desarrollo de software, mi objetivo siempre ha sido convertirme en un líder técnico en mi campo 💼. Entiendo que para llegar a ese nivel es necesario seguir aprendiendo y creciendo en mi carrera 🧠. En mi corto plazo, mi objetivo es rodearme de profesionales experimentados 💪 y aprender de ellos para desarrollar las habilidades y conocimientos necesarios para alcanzar mi meta a largo plazo.",
+    "about-me.paragraph3": "Me esfuerzo por buscar oportunidades de trabajar en equipos con líderes en mi campo 💻 y aprovechar al máximo cada oportunidad para aprender de su experiencia y conocimiento 📚. A pesar de mi corta experiencia, estoy seguro de que esta filosofía me ayudará a desarrollar las habilidades y conocimientos necesarios para alcanzar mi objetivo a largo plazo de convertirme en un líder técnico 🚀.",
+    "about-me.paragraph4": "Me encanta entender las necesidades del usuario y proporcionar soluciones que se ajusten a ellas. Trabajar en equipo es algo que disfruto mucho y creo que la comunicación eficaz y la empatía son fundamentales para lograr un buen resultado.",
+    "about-me.paragraph5": "Además de mi experiencia en programación, también tengo conocimientos en marketing 💁‍♂️, finanzas e inversiones.",
+    "about-me.paragraph6": "Me considero una persona altamente autodidacta 🙌, ya que siempre aprovecho y busco oportunidades de aprender, mejorar mis habilidades y conocimientos en el desarrollo de software y a su vez adquirir conocimientos empresariales para continuar creciendo profesionalmente 🧠.",
+    "about-me.paragraph7": "Me encanta aportar valor a las empresas, y estoy seguro de que mi experiencia y pasión por el desarrollo serán un gran beneficio para cualquier equipo en el que trabaje. ¡No esperes más y contrátame! Estoy seguro de que no te arrepentirás de tu decisión.",
+    "about-me.paragraph8": "Les deseo a ti y al equipo una excelente semana 😀.",
 
 
 
@@ -41,19 +45,19 @@
     "experience.activities-pine5": "Proponer mejoras para la interfaz y experiencia del usuario.",
 
     "experience.position-gesprender": "Full Stack",
-    "experience.activities-gesprender1": "Maquetación.",
-    "experience.activities-gesprender2": "Corrección y creación de Módulos y Elementos.",
-    "experience.activities-gesprender3": "Rediseño de los componentes.",
-    "experience.activities-gesprender4": "Creación de lógica de los elementos.",
-    "experience.activities-gesprender5": "Creación de Scripts (Envió masivos de mensajes, Datos fakes)",
-    "experience.activities-gesprender6": "Consumo y creación de APIs.",
-    "experience.activities-gesprender7": "Corrección de APIs.",
-    "experience.activities-gesprender8": "Mantenimiento de la Base de Datos.",
+    "experience.activities-gesprender1": "Contribuí en el diseño y maquetación de la interfaz de usuario utilizando herramientas como HTML5, CSS3, Bootstrap y React.",
+    "experience.activities-gesprender2": "Implementé y corregí módulos y elementos en la plataforma utilizando PHP, MySQL, JavaScript y JQuery.",
+    "experience.activities-gesprender3": "Rediseñé y optimicé los componentes existentes para mejorar la experiencia del usuario.",
+    "experience.activities-gesprender4": "Creé scripts específicos para automatizar tareas como el envío masivo de mensajes y la generación datos falsos utilizando PHP y Python.",
+    "experience.activities-gesprender5": "Desarrollé y consumí APIs utilizando PHP y Symfony, así como corregí y mantuve las existentes.",
+    "experience.activities-gesprender6": "Administré y mantuve la base de datos utilizando MySQL y Postman.",
+    "experience.activities-gesprender7": "Implementé características y corregí bugs en la plataforma utilizando React y PHP.",
+    "experience.activities-gesprender8": "Participé en el desarrollo de nuevas funcionalidades y mejoras en el sistema.",
 
     "experience.position-id-for-idea": "Backend con PHP",
-    "experience.activities-id-for-idea1": "Creación de la lógica de elementos.",
-    "experience.activities-id-for-idea2": "Conexiones de la Base de Datos.",
-    "experience.activities-id-for-idea3": "Mantenimiento de la Base de Datos.",
+    "experience.activities-id-for-idea1": "Desarrollé la lógica de elementos y características en la plataforma utilizando PHP.",
+    "experience.activities-id-for-idea2": "Implementé conexiones a la base de datos.",
+    "experience.activities-id-for-idea3": "Realicé tareas de mantenimiento en la base de datos, incluyendo la optimización de consultas y resolución de problemas.",
 
 
 

@@ -45,6 +45,16 @@ export default function About() {
               <FormattedMessage
                 id="about-me.paragraph6"
                 />
+                <br />
+              <br />
+              <FormattedMessage
+                id="about-me.paragraph7"
+                />
+                <br />
+              <br />
+              <FormattedMessage
+                id="about-me.paragraph8"
+                />
           </p>
         </>
       }

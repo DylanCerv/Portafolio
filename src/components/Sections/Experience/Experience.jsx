@@ -75,7 +75,7 @@ export default function Experience() {
               cargo={<FormattedMessage id="experience.position-id-for-idea" />}
               fecha="(11/2021 - 03/2022)"
               dueño=""
-              technologies="PHP / HTML / CSS / MySQL / Boostrap / JavaScript"
+              technologies="PHP / MySQL"
             >
               <li>
                 <FormattedMessage id="experience.activities-id-for-idea1" />

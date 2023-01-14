@@ -11,12 +11,14 @@
 
 
     "about-me.title": "About Me",
-    "about-me.paragraph1": "Hello, my name is Dylan Spain👋, I am a Full Stack developer (Backend and Frontend) I have +1 year of experience using 👀 different technologies.",
-    "about-me.paragraph2": "Development with a clean and scalable code structure 💪, since this facilitates future problem solving and helps with the optimization of the app.",
-    "about-me.paragraph3": "Apart from programming, I also have knowledge of 💁‍♂️ Marketing, Finance and Investments.",
-    "about-me.paragraph4": "I consider myself a super self-taught person 🙌 since I always find myself learning programming tools and techniques, and at the same time acquiring business knowledge to continue growing professionally 🧠.",
-    "about-me.paragraph5": "If I was able to capture your attention, don't wait any longer and give me the opportunity to HIRE ME, I assure you that you will not regret the decision to be part of the team. 😎",
-    "about-me.paragraph6": "I wish you a very nice week 😀",
+    "about-me.paragraph1": "Hello! I'm Dylan Spain 🙋‍♂️ and I have +1 experience as a Full Stack Developer. Developed web applications using technologies such as PHP, MySQL, NextJS, React, among others. My development approach is based on creating a clean and scalable code structure 🚀, which makes it easier to solve future problems and helps to optimize the application.",
+    "about-me.paragraph2": "Despite the time I have in software development, my goal has always been to become a technical leader in my field 💼. I understand that to reach that level it is necessary to continue learning and growing in my career 🧠. In the short term, my goal is to surround myself with experienced professionals 💪 and learn from them to develop the skills and knowledge necessary to achieve my long-term goal.",
+    "about-me.paragraph3": "I strive to find opportunities to work on teams with leaders in my field 💻 and make the most of each opportunity to learn from their experience and knowledge 📚. Despite my short experience, I am sure that this philosophy will help me develop the skills and knowledge necessary to achieve my long-term goal of becoming a technical leader 🚀.",
+    "about-me.paragraph4": "I love understanding user needs and providing solutions that fit them. Working in a team is something that I really enjoy and I believe that effective communication and empathy are essential to achieve a good result.",
+    "about-me.paragraph5": "In addition to my programming experience, I also have knowledge in marketing 💁‍♂️, finance and investments.",
+    "about-me.paragraph6": "I consider myself a highly self-taught person 🙌, since I always take advantage of and look for opportunities to learn, improve my skills and knowledge in software development and in turn acquire business knowledge to continue growing professionally 🧠.",
+    "about-me.paragraph7": "I love adding value to companies, and I'm sure my experience and passion for development will be of great benefit to any team I work on. Don't wait any longer and hire me! I'm sure you won't regret your decision.",
+    "about-me.paragraph8": "I wish you and the team a great week 😀.",
 
 
 
@@ -40,19 +42,19 @@
     "experience.activities-pine5": "Propose improvements for the interface and user experience.",
 
     "experience.position-gesprender": "Full Stack",
-    "experience.activities-gesprender1": "Layout.",
-    "experience.activities-gesprender2": "Correction and creation of Modules and Elements.",
-    "experience.activities-gesprender3": "Redesign of the components.",
-    "experience.activities-gesprender4": "Creation of logic elements.",
-    "experience.activities-gesprender5": "Creation of specific Scripts (Massive message sending, fake data)",
-    "experience.activities-gesprender6": "Consumption and creation of APIs.",
-    "experience.activities-gesprender7": "API fixes.",
-    "experience.activities-gesprender8": "Database Maintenance.",
+    "experience.activities-gesprender1": "I contributed in the design and layout of the user interface using tools such as HTML5, CSS3, Bootstrap, and React.",
+    "experience.activities-gesprender2": "I implemented and corrected modules and elements on the platform using PHP, MySQL, JavaScript, and JQuery.",
+    "experience.activities-gesprender3": "I redesigned and optimized existing components to improve the user experience.",
+    "experience.activities-gesprender4": "I created specific scripts to automate tasks such as mass messaging and fake data generation using PHP and Python.",
+    "experience.activities-gesprender5": "I developed and consumed APIs using PHP and Symfony, as well as corrected and maintained existing ones.",
+    "experience.activities-gesprender6": "I managed and maintained the database using MySQL and Postman.",
+    "experience.activities-gesprender7": "I implemented features and corrected bugs on the platform using React and PHP.",
+    "experience.activities-gesprender8": "I participated in the development of new features and improvements in the system.",
 
     "experience.position-id-for-idea": "Backend con PHP",
-    "experience.activities-id-for-idea1": "Creation of element logic.",
-    "experience.activities-id-for-idea2": "Database Connections.",
-    "experience.activities-id-for-idea3": "Database Maintenance.",
+    "experience.activities-id-for-idea1": "Developed the logic of elements and features on the platform using PHP.",
+    "experience.activities-id-for-idea2": "Implemented connections to the database.",
+    "experience.activities-id-for-idea3": "Performed maintenance tasks on the database, including optimization of queries and problem resolution.",
 
 
 

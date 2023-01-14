@@ -11,7 +11,7 @@ export default function Trabajo({empresa, cargo, fecha, children, dueño, techno
     <div className="mb-10">
         <h2 className='uppercase'>{empresa} <span className='text-sm ml-2 font-normal'>{dueño}</span></h2>
         <div className='flex flex-row items-baseline gap-3 mb-2'>
-            <h2 className='m-0'>
+            <h2 className='mb-2 mt-3'>
               <FormattedMessage 
                 id="experience.position-title"
               />{" "}
@@ -20,7 +20,7 @@ export default function Trabajo({empresa, cargo, fecha, children, dueño, techno
             <span className='text-[0.65rem]'>{fecha}</span>
         </div>
         <div className='mb-2'>
-            <h2 className='mb-1'>
+            <h2 className='mb-2 mt-3'>
               <FormattedMessage 
                 id="experience.activities-title"
               />
@@ -30,7 +30,7 @@ export default function Trabajo({empresa, cargo, fecha, children, dueño, techno
             </ul>
         </div>
         <div>
-        <h2 className='mb-1'>
+        <h2 className='mb-2 mt-3'>
               <FormattedMessage 
                 id="experience.technologies-title"
               />

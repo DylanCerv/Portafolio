@@ -13,23 +13,25 @@ export default function BTN_CV() {
     const es_EC = "es-EC";
     const en_US = "en-US";
     
+    const Espanol = "18NtHYg1DDPQMw1Ifv5_Sm3kTO6CCgxq4";
+    const English = "19DU_9rKujQiRyVK_tNf5vsyGEFvlaPYn";
 
     if (localStorage.getItem('language') == undefined) {
         localStorage.setItem('language', es_EC);
     }
     if (localStorage.getItem('language') == es_EC) {
-        cv = "1zQcQD8nKDsUOizXXrkLdEIaGTYZfTNWA"
+        cv = Espanol;
     }
     if (localStorage.getItem('language') == en_US) {
-        cv = "1nQMQ7JsZeqaF0rok5V3Sh6Cxt3sZMNWC"
+        cv = English;
     }
 
     useEffect(() => {
         if (localStorage.getItem('language') == es_EC) {
-            cv = "1zQcQD8nKDsUOizXXrkLdEIaGTYZfTNWA"
+            cv = Espanol;
         }
         if (localStorage.getItem('language') == en_US) {
-            cv = "1nQMQ7JsZeqaF0rok5V3Sh6Cxt3sZMNWC"
+            cv = English;
         }
     }, [localeFinal])
   
