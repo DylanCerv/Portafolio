@@ -31,7 +31,7 @@ export default function ListProject({
     <>
       <div ref={fromRef}>
         {isNearScreen && 
-          <div className="flex flex-wrap justify-center items-center gap-2 md:gap-10">
+          <div className="flex flex-wrap justify-center items-center gap-6 md:gap-10">
             <CardProject
               openModal={openModalFinterest}
               img1={Finterest_img1}
