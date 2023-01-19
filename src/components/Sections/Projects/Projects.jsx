@@ -22,6 +22,7 @@ export default function Projects() {
   const [ valueState_NewTech, openModal_NewTech, closeModal_NewTech ] = useModal(false);
   const [ valueState_G_Drive, openModal_G_Drive, closeModal_G_Drive ] = useModal(false);
   const [ valueState_API_NeTech, openModal_API_NeTech, closeModal_API_NeTech ] = useModal(false);
+  const [ valueState_Data_FMovies, openModal_Data_FMovies, closeModal_Data_FMovies ] = useModal(false);
   
   const {
     Finterest_img1, Finterest_img2,
@@ -31,7 +32,8 @@ export default function Projects() {
     Gowner_Music_img1, Gowner_Music_img2,
     NewTech_img1, NewTech_img2,
     G_Drive_img1, G_Drive_img2,
-    API_NeTech_img1, API_NeTech_img2
+    API_NeTech_img1, API_NeTech_img2,
+    Data_FMovies_img1, Data_FMovies_img2,
   } = Img_Projects;
 
   const polygon = "https://res.cloudinary.com/dnnjctymr/image/upload/v1673208560/portafolio/assets/img/Figures/polygon_hs8yjj.svg";
@@ -67,9 +69,25 @@ export default function Projects() {
                 openModal_NewTech = {openModal_NewTech}
                 openModal_G_Drive = {openModal_G_Drive}
                 openModal_API_NeTech = {openModal_API_NeTech}
+                openModal_Data_FMovies = {openModal_Data_FMovies}
             />
             </div>
             <div>
+                <Modal
+                    valueState={valueState_Data_FMovies}
+                    closeModal={closeModal_Data_FMovies}
+                    img={Data_FMovies_img1}
+                    title={`Data FMovies`}
+                    description={<FormattedMessage id="project.description-DataFMovies" />}
+                    demoLink='https://data-fmovies.vercel.app/'
+                    githubLink='https://github.com/DylanCerv/app-movie'
+                >
+                    <span>JavaScript -</span>
+                    <span>HTML -</span>
+                    <span>CSS -</span>
+                    <span>React -</span>
+                    <span>React Query</span>
+                </Modal>
                 <Modal
                     valueState={valueState_Finterest}
                     closeModal={closeModal_Finterest}
@@ -154,6 +172,7 @@ export default function Projects() {
                 >
                     <span>PHP -</span>
                     <span>JS -</span>
+                    <span>Next.js -</span>
                     <span>CSS -</span>
                     <span>HTML</span>
                 </Modal>

@@ -22,4 +22,7 @@ export const Img_Projects = {
     
     API_NeTech_img1: "https://res.cloudinary.com/dnnjctymr/image/upload/v1673554463/portafolio/Projects/Netech_API1_iohsm8.png",
     API_NeTech_img2: "https://res.cloudinary.com/dnnjctymr/image/upload/v1673554466/portafolio/Projects/Netech_API2_lyipn6.png",
+    
+    Data_FMovies_img1: "https://res.cloudinary.com/dnnjctymr/image/upload/v1674085964/portafolio/Projects/data-movies2_bkfhbe.png",
+    Data_FMovies_img2: "https://res.cloudinary.com/dnnjctymr/image/upload/v1674085952/portafolio/Projects/data-movies1_b4xpcu.png",
 }

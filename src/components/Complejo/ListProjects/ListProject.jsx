@@ -11,7 +11,8 @@ export default function ListProject({
     openModal_NewTech,
     openModal_G_Drive,
     openModal_WeatherApp,
-    openModal_API_NeTech
+    openModal_API_NeTech,
+    openModal_Data_FMovies
 }) {
 
   const {
@@ -22,7 +23,8 @@ export default function ListProject({
     Gowner_Music_img1, Gowner_Music_img2,
     NewTech_img1, NewTech_img2,
     G_Drive_img1, G_Drive_img2,
-    API_NeTech_img1, API_NeTech_img2
+    API_NeTech_img1, API_NeTech_img2,
+    Data_FMovies_img1, Data_FMovies_img2,
   } = Img_Projects;
 
   const {isNearScreen, fromRef} = useLazyLoading({distance: '300px'});
@@ -32,6 +34,12 @@ export default function ListProject({
       <div ref={fromRef}>
         {isNearScreen && 
           <div className="flex flex-wrap justify-center items-center gap-6 md:gap-10">
+            <CardProject
+              openModal={openModal_Data_FMovies}
+              img1={Data_FMovies_img1}
+              img2={Data_FMovies_img2}
+              title="Data FMovies"
+            />
             <CardProject
               openModal={openModalFinterest}
               img1={Finterest_img1}
