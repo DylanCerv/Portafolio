@@ -1,6 +1,19 @@
 import React, { useEffect, useState } from 'react'
 
-export default function CountdownTimer({ className = '', date='2023-05-10T00:00:00' }) {
+export default function CountdownTimer({ className = '', moth='05-10T00:00:00' }) {
+
+    const today = new Date();
+    const may10 = new Date(today.getFullYear(), 4, 10);
+
+    let date;
+
+    if (today > may10) {
+      // Ya pasó el 10 de mayo de este año.
+      date = new Date(today.getFullYear() + 1, 4, 10);
+    } else {
+      // Todavía no ha llegado el 10 de mayo de este año.
+      date = may10;
+    }
 
     const birthdayDate = new Date(date);
 
@@ -11,7 +24,6 @@ export default function CountdownTimer({ className = '', date='2023-05-10T00:00:
       const difference = birthdayDate - now;
   
       if (difference <= 0) {
-        // Si la fecha de cumpleaños ya ha pasado en el año actual, calcula la diferencia para el próximo año
         birthdayDate.setFullYear(now.getFullYear() + 1);
         return getTimeRemaining();
       }

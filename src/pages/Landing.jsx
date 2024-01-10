@@ -4,7 +4,7 @@ import LayoutMain from "../share/layouts/LayoutMain/LayoutMain";
 import { SOBRE_MI } from "../share/data/General";
 import { REDES } from "../share/data/Icons_links";
 import { Link } from "react-router-dom";
-import { FaRegFilePdf } from "react-icons/fa";
+import { FaDiscord, FaRegFilePdf } from "react-icons/fa";
 import { EXPERIENCIA_LABORAL } from "../share/data/Experiencia";
 import { BsChevronDoubleDown, BsChevronDoubleRight } from "react-icons/bs";
 import { SKILLS_TECHNICAL } from "../share/data/Skills";
@@ -16,6 +16,10 @@ import CarruselCard from "../share/components/Carrusel/CarruselCard";
 import { PROYECTOS } from "../share/data/Proyectos";
 import Footer from "../share/components/Footer/Footer";
 import FormContact from "../share/components/FormContact/FormContact";
+import { CONTACT_INFO } from "../share/data/Contact";
+import CopyToClipboardButton from "../share/components/CopyToClipboardButton/CopyToClipboardButton";
+import Contact from "../share/components/Contact/Contact";
+import { IoIosMail } from "react-icons/io";
 
 export default function Landing() {
   const [currentDateTime, setCurrentDateTime] = useState(new Date());
@@ -66,18 +70,19 @@ export default function Landing() {
               </Link>
             ))}
             <a
-              className="flex flex-row items-center gap-1 bg-[#1cadaa] hover:bg-[#20c7c5] rounded-lg font-medium px-3 py-1 ml-2"
+              className="flex flex-row items-center gap-1 bg-[#1cadaa] bg-sky-300 text-black hover:bg-[#20c7c5] rounded-lg font-medium px-3 py-1 ml-2"
               href={"/file/cvs/Es_Dylan_Espana_Cervantes.pdf"}
               download
             >
-              <FaRegFilePdf /> Descargar CV
+              <FaRegFilePdf /> CV
             </a>
           </div>
           <p className="text-gray-400 lg:leading-7">{SOBRE_MI.description}</p>
+          <p className="font-medium text-gray-300">Contacto: <span className="font-normal text-gray-400 lg:leading-7">{CONTACT_INFO.mail}</span></p>
         </Card>
         <Card className="flex items-center justify-center col-span-1 sm:col-span-2 lg:col-span-2 lg:row-span-2">
           <div className="relative w-fit">
-            <h1 className="color-azul text-3xl lg:text-4xl font-bold">
+            <h1 className="color-azul text-2xl sm:text-3xl lg:text-4xl font-bold">
               Ecuador
             </h1>
             <img
@@ -87,15 +92,15 @@ export default function Landing() {
             />
           </div>
         </Card>
-        <Card className="flex items-center text-center col-span-2 sm:col-span-2 lg:col-span-2 lg:row-span-2">
-          <h1 className="color-azul text-3xl lg:text-4xl font-bold">
+        <Card className="!px-2 !py-8 flex items-center text-center col-span-2 sm:col-span-2 lg:col-span-2 lg:row-span-2">
+          <h1 className="color-azul text-xl sm:text-3xl lg:text-4xl font-bold">
             Desarrollador Full Stack (PHP, JS)
           </h1>
         </Card>
         <Card className="!p-0 overflow-hidden col-span-3 sm:col-span-2 lg:col-span-3">
           <img className="h-full w-full" src="/img/grid/setup.webp" alt="" />
         </Card>
-        <Card className="hidden sm:block sm:!bg-white/[30%] lg:hidden flexs flex-col gap-2 text-center col-span-3 sm:col-span-2 lg:col-span-2"></Card>
+        <Card className="hidden sm:block sm:!bg-white/[15%] lg:hidden flexs flex-col gap-2 text-center col-span-3 sm:col-span-2 lg:col-span-2"></Card>
         <Card className="tech flex flex-col gap-2 col-span-3 sm:col-span-5 lg:row-span-3">
           <h1 className="text-2xl font-bold color-azul">
             Tecnologías (Skills)
@@ -143,14 +148,14 @@ export default function Landing() {
         <Card className="!p-0 overflow-hidden text-center col-span-2 row-span-2 sm:col-span-2 sm:row-span-2 lg:col-span-2 lg:row-span-1">
           <img className="h-full w-full" src="/img/grid/desing.webp" alt="" />
         </Card>
-        <Card className="block !bg-white/[30%] col-span-1 sm:col-span-2 lg:col-span-2"></Card>
+        <Card className="block !bg-white/[15%] col-span-1 sm:col-span-2 lg:col-span-2"></Card>
         <Card className="hidden lg:flex flex-col col-span-1 sm:col-span-2 lg:col-span-4">
           <h1 className="color-azul text-2xl font-bold">
             Dias Restantes para mi cumpleaños
           </h1>
           <div className="flex flex-col items-end mt-6">
             <CountdownTimer />
-            <h1 className="font-normal ml-auto">(10 de mayo)</h1>
+            <h1 className="font-normal ml-auto text-gray-400">(10 de mayo)</h1>
           </div>
         </Card>
         <Card className="flex flex-col justify-center col-span-3 font-bold sm:col-span-2 lg:col-span-4">
@@ -219,7 +224,7 @@ export default function Landing() {
               </Link>
             </div>
           </article>
-          <div className="flex flex-row items-center justify-center w-[85vw] sm:w-auto">
+          {/* <div className="flex flex-row items-center justify-center w-[85vw] sm:w-auto">
             <hr className="w-full" />
             <div className="bg-black/[50%] p-2 rounded-full">&</div>
             <hr className="w-full" />
@@ -228,12 +233,9 @@ export default function Landing() {
             <h1 className="color-azul font-bold text-xl mb-2">VAU (MVP)</h1>
             <p>
               Desarrollando un ecosistema para potenciar las ventas en el ámbito
-              digital.
+              de los coaches.
             </p>
-            <Link to={"https://sethor.tech"} target="_blank">
-              Conoce más
-            </Link>
-          </article>
+          </article> */}
         </Card>
       </section>
       <section className="flex flex-col gap-10">
@@ -252,76 +254,21 @@ export default function Landing() {
           ))}
         </CarruselContainer>
       </section>
-      <Card id='contacto' className="flex flex-col col-span-3">
-        <h1 className="text-3xl lg:text-4xl font-bold color-azul">
-          Contactame
-        </h1>
-        <main className="md:grid grid-cols-2 items-start gap-5 mt-6">
-          <div className="h-full flex flex-col gap-5">
-            <p className="text-gray-300">
-              Puedes enviarme un mensaje, ya sea para encargar un proyecto, para
-              contratarme, sugerir alguna mejora o incluso saludarme. 😀
-            </p>
-            <div className="flex flex-row items-center gap-2 text-gray-300">
-              <CiMail />
-              <a target="_blank">dylanecervantes@gmail.com</a>
-            </div>
-            <div className="hidden md:flex items-center justify-center h-full">
-              <svg
-                width="150"
-                height="150"
-                viewBox="0 0 468 468"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g filter="url(#filter0_d_25_31)">
-                  <path
-                    d="M441.019 2.75C446.519 6.75 448.769 12.0833 447.769 18.75L383.77 402.75C382.937 407.583 380.271 411.333 375.771 414C373.437 415.333 370.854 416 368.021 416C366.187 416 364.187 415.583 362.021 414.75L248.773 368.5L188.274 442.25C185.274 446.083 181.191 448 176.024 448C173.858 448 172.024 447.667 170.525 447C167.358 445.833 164.816 443.875 162.9 441.125C160.983 438.375 160.025 435.333 160.025 432V344.75L376.021 80L108.776 311.25L10.0276 270.75C3.86104 268.417 0.527768 263.833 0.0277772 257C-0.30555 250.333 2.36107 245.417 8.02762 242.25L424.02 2.25C426.52 0.75 429.186 0 432.02 0C435.353 0 438.353 0.916667 441.019 2.75Z"
-                    fill="#ffffff"
-                  />
-                </g>
-                <defs>
-                  <filter
-                    id="filter0_d_25_31"
-                    x="0"
-                    y="0"
-                    width="468"
-                    height="468"
-                    filterUnits="userSpaceOnUse"
-                    color-interpolation-filters="sRGB"
-                  >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                    <feColorMatrix
-                      in="SourceAlpha"
-                      type="matrix"
-                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                      result="hardAlpha"
-                    />
-                    <feOffset dx="10" dy="10" />
-                    <feGaussianBlur stdDeviation="5" />
-                    <feComposite in2="hardAlpha" operator="out" />
-                    <feColorMatrix
-                      type="matrix"
-                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
-                    />
-                    <feBlend
-                      mode="normal"
-                      in2="BackgroundImageFix"
-                      result="effect1_dropShadow_25_31"
-                    />
-                    <feBlend
-                      mode="normal"
-                      in="SourceGraphic"
-                      in2="effect1_dropShadow_25_31"
-                      result="shape"
-                    />
-                  </filter>
-                </defs>
-              </svg>
-            </div>
-          </div>
-          <FormContact />
-        </main>
+      <Card id='contacto' className="flex flex-col col-span-3 gap-5">
+        <header className="flex flex-row items-center gap-3">
+          <IoIosMail color="#fff" size={40} />
+          <h1 className="text-3xl lg:text-4xl font-bold color-azul !text-white">
+            Contacto
+          </h1>
+        </header>
+        <Contact text={CONTACT_INFO.mail} linkSend={`mailto:${CONTACT_INFO.mail}`} />
+        <header className="flex flex-row items-center gap-3">
+          <FaDiscord color="#fff" size={40} />
+          <h1 className="text-3xl lg:text-4xl font-bold color-azul !text-white">
+            Discord
+          </h1>
+        </header>
+        <Contact text={CONTACT_INFO.discord} linkSend={`https://discord.com/channels/@me`} />
       </Card>
       <Footer />
     </LayoutMain>

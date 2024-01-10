@@ -31,20 +31,20 @@ export const PROYECTOS = [
             {name: 'CSS', icon: <FaCss3Alt />},
         ]
     },
-    {
-        title: 'Web 3D',
-        description: 'Landing page para beta de una plataforma que brinda herramientas unicas a personal que trabaja en equipo.',
-        src: `${path}/web-3d.webp`,
-        URL: 'https://3d-web-f.vercel.app/',
-        URL_Github: 'https://github.com/DylanCerv/Web-3D',
-        tools: [
-            {name: 'JavaScript', icon: <RiJavascriptFill />},
-            {name: 'React', icon: <FaReact />},
-            {name: 'NodeJs', icon: <FaNodeJs />},
-            {name: 'CSS', icon: <FaCss3Alt />},
-            {name: 'Spline', icon: ''},
-        ]
-    },
+    // {
+    //     title: 'Web 3D',
+    //     description: 'Landing page para beta de una plataforma que brinda herramientas unicas a personal que trabaja en equipo.',
+    //     src: `${path}/web-3d.webp`,
+    //     URL: 'https://3d-web-f.vercel.app/',
+    //     URL_Github: 'https://github.com/DylanCerv/Web-3D',
+    //     tools: [
+    //         {name: 'JavaScript', icon: <RiJavascriptFill />},
+    //         {name: 'React', icon: <FaReact />},
+    //         {name: 'NodeJs', icon: <FaNodeJs />},
+    //         {name: 'CSS', icon: <FaCss3Alt />},
+    //         {name: 'Spline', icon: ''},
+    //     ]
+    // },
     {
         title: 'Pinterest',
         description: 'He desarrollado una réplica de la página de inicio de Pinterest en la que he implementado características avanzadas de diseño, navegación y manejo de la información.',
@@ -69,20 +69,20 @@ export const PROYECTOS = [
             {name: 'CSS', icon: <FaCss3Alt />},
         ]
     },
-    {
-        title: 'GownerMusic',
-        description: '(Proyecto en pausa) Red social centrada en la música, conectando artistas y sellos discográficos en busca de talento.',
-        src: `${path}/gownermusic.webp`,
-        URL: '',
-        URL_Github: 'https://github.com/DylanCerv/GownerMusic-Social-Net-',
-        tools: [
-            {name: 'PHP', icon: <FaPhp />},
-            {name: 'CSS', icon: <FaCss3Alt />},
-            {name: 'HTML', icon: <FaHtml5 />},
-            {name: 'JavaScript', icon: <RiJavascriptFill />},
-            {name: 'Mysql', icon: <SiMysql />},
-        ]
-    },
+    // {
+    //     title: 'GownerMusic',
+    //     description: '(Proyecto en pausa) Red social centrada en la música, conectando artistas y sellos discográficos en busca de talento.',
+    //     src: `${path}/gownermusic.webp`,
+    //     URL: '',
+    //     URL_Github: 'https://github.com/DylanCerv/GownerMusic-Social-Net-',
+    //     tools: [
+    //         {name: 'PHP', icon: <FaPhp />},
+    //         {name: 'CSS', icon: <FaCss3Alt />},
+    //         {name: 'HTML', icon: <FaHtml5 />},
+    //         {name: 'JavaScript', icon: <RiJavascriptFill />},
+    //         {name: 'Mysql', icon: <SiMysql />},
+    //     ]
+    // },
     {
         title: 'NewTech',
         description: 'Portal de noticias para mantenerte informado sobre eventos mundiales y hasta en rincones estrechos del mundo.',
