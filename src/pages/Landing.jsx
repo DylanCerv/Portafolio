@@ -58,7 +58,7 @@ export default function Landing() {
       <section id='sobre-mi' className="grid grid-cols-2 sm:grid-cols-4 gap-5 lg:grid-cols-8">
         <Card className="flex flex-col gap-4 lg:gap-6 col-span-3 sm:col-span-4 md:col-span-2 sm:row-span-2 lg:col-span-4">
           <div className="text-3xl font-bold lg:text-4xl">
-            <h1 className="font-semibold lg:font-bold color-azul">
+            <h1 className="font-semibold lg:font-bold color-azul !text-sky-300">
               {SOBRE_MI.name}
             </h1>
             <h1>{SOBRE_MI.position}</h1>
@@ -70,19 +70,22 @@ export default function Landing() {
               </Link>
             ))}
             <a
-              className="flex flex-row items-center gap-1 bg-[#1cadaa] bg-sky-300 text-black hover:bg-[#20c7c5] rounded-lg font-medium px-3 py-1 ml-2"
+              className="flex flex-row items-center gap-1 bg-sky-300 text-black hover:bg-[#20c7c5] rounded-lg font-medium px-3 py-1 ml-2"
               href={"/file/cvs/Es_Dylan_Espana_Cervantes.pdf"}
               download
             >
               <FaRegFilePdf /> CV
             </a>
           </div>
-          <p className="text-gray-400 lg:leading-7">{SOBRE_MI.description}</p>
-          <p className="font-medium text-gray-300">Contacto: <span className="font-normal text-gray-400 lg:leading-7">{CONTACT_INFO.mail}</span></p>
+          <p className="font-medium text-gray-300">Email: <span className="font-normal text-gray-400 lg:leading-7">{CONTACT_INFO.mail}</span></p>
+          <div>
+            <p className="text-gray-400 lg:leading-7">{SOBRE_MI.description}</p>
+            <p className="text-gray-400 lg:leading-7">{SOBRE_MI.phrase}</p>
+          </div>
         </Card>
         <Card className="flex items-center justify-center col-span-1 sm:col-span-2 lg:col-span-2 lg:row-span-2">
           <div className="relative w-fit">
-            <h1 className="color-azul text-2xl sm:text-3xl lg:text-4xl font-bold">
+            <h1 className="color-azul !text-sky-300 text-2xl sm:text-3xl lg:text-4xl font-bold">
               Ecuador
             </h1>
             <img
@@ -93,7 +96,7 @@ export default function Landing() {
           </div>
         </Card>
         <Card className="!px-2 !py-8 flex items-center text-center col-span-2 sm:col-span-2 lg:col-span-2 lg:row-span-2">
-          <h1 className="color-azul text-xl sm:text-3xl lg:text-4xl font-bold">
+          <h1 className="color-azul !text-sky-300 text-xl sm:text-3xl lg:text-4xl font-bold">
             Desarrollador Full Stack (PHP, JS)
           </h1>
         </Card>
@@ -102,7 +105,7 @@ export default function Landing() {
         </Card>
         <Card className="hidden sm:block sm:!bg-white/[15%] lg:hidden flexs flex-col gap-2 text-center col-span-3 sm:col-span-2 lg:col-span-2"></Card>
         <Card className="tech flex flex-col gap-2 col-span-3 sm:col-span-5 lg:row-span-3">
-          <h1 className="text-2xl font-bold color-azul">
+          <h1 className="text-2xl font-bold color-azul !text-sky-300">
             Tecnologías (Skills)
           </h1>
           <section>
@@ -141,7 +144,7 @@ export default function Landing() {
           />
         </Card>
         <Card className="p-4 sm:p-10 flex items-center text-center col-span-1 sm:col-span-2 lg:col-span-4">
-          <h1 className="color-azul text-3xl mx-auto font-bold uppercase">
+          <h1 className="color-azul !text-sky-300 text-3xl mx-auto font-bold uppercase">
             {userLocalTime}
           </h1>
         </Card>
@@ -150,7 +153,7 @@ export default function Landing() {
         </Card>
         <Card className="block !bg-white/[15%] col-span-1 sm:col-span-2 lg:col-span-2"></Card>
         <Card className="hidden lg:flex flex-col col-span-1 sm:col-span-2 lg:col-span-4">
-          <h1 className="color-azul text-2xl font-bold">
+          <h1 className="color-azul !text-sky-300 text-2xl font-bold">
             Dias Restantes para mi cumpleaños
           </h1>
           <div className="flex flex-col items-end mt-6">
@@ -159,7 +162,7 @@ export default function Landing() {
           </div>
         </Card>
         <Card className="flex flex-col justify-center col-span-3 font-bold sm:col-span-2 lg:col-span-4">
-          <div className="text-3xl mx-auto color-azul">
+          <div className="text-3xl mx-auto color-azul !text-sky-300">
             <h1>{userLocalDay}</h1>
             <h1>{userLocalDate}</h1>
           </div>
@@ -168,12 +171,10 @@ export default function Landing() {
       <section id='experiencia' className="flex flex-col gap-10">
         <article>
           <h1 className="font-bold text-3xl">Experiencia</h1>
-          <p className="text-gray-400 mt-3">
-            Soy un apasionado desarrollador de software autodidacta en busca de
-            nuevos desafíos. Me especializo en el desarrollo de front-end y
-            backend TypeScript, React.js, Node.js y PHP.
+          <p className="text-gray-400 mt-3">Me especializo en el desarrollo de Frontend y
+            Backend usando diferentes técnologias como: TypeScript, React.js, Node.js y PHP.
             Incluso cuando me enfrento a problemas difíciles, sé cómo abordarlos
-            con paciencia, determinación y perseverancia inquebrantable.
+            con paciencia, determinación y perseverancia.
           </p>
         </article>
         <ol className="relative border-s border-gray-200 sm:ml-10 md:ml-20">
@@ -183,7 +184,7 @@ export default function Landing() {
               <time className="mb-1 text-[28px] font-bold leading-none text-white">
                 {data.Position_Held}
               </time>
-              <h3 className="text-xl font-semibold color-azul">
+              <h3 className="text-xl font-semibold color-azul !text-sky-300">
                 {data.Company}
               </h3>
               <ul className="list-disc list-inside">
@@ -199,7 +200,7 @@ export default function Landing() {
       </section>
       <section id='proyectos' className="grid grid-cols-1 gap-5 sm:grid-cols-2">
         <Card className="flex flex-col items-center gap-2 text-center col-span-1 justify-center">
-          <h1 className="text-2xl lg:text-3xl font-bold color-azul">
+          <h1 className="text-2xl lg:text-3xl font-bold color-azul !text-sky-300">
             Proyectos en Desarrollo
           </h1>
           <BsChevronDoubleDown size={40} className="sm:hidden" />
@@ -210,14 +211,14 @@ export default function Landing() {
         </Card>
         <Card className="flex flex-col justify-between items-center gap-2 col-span-1 sm:block">
           <article className="mr-auto">
-            <h1 className="color-azul font-bold text-xl mb-2">Sethor (MVP)</h1>
+            <h1 className="color-azul !text-sky-300 font-bold text-xl mb-2">Sethor (MVP)</h1>
             <p className="text-gray-3s00">
               Explorando soluciones en el espacio de pagos biométricos.
             </p>
             <div className="mt-6">
               <Link
                 className="bg-zinc-950/[40%] hover:bg-zinc-950/[60%] border border-transparent hover:border-white/[50%] px-4 py-2 rounded-md"
-                to={"https://sethor.tech"}
+                to={"https://www.sethor.tech"}
                 target="_blank"
               >
                 Conoce más
@@ -230,7 +231,7 @@ export default function Landing() {
             <hr className="w-full" />
           </div>
           <article className="mr-auto">
-            <h1 className="color-azul font-bold text-xl mb-2">VAU (MVP)</h1>
+            <h1 className="color-azul !text-sky-300 font-bold text-xl mb-2">VAU (MVP)</h1>
             <p>
               Desarrollando un ecosistema para potenciar las ventas en el ámbito
               de los coaches.
@@ -240,7 +241,7 @@ export default function Landing() {
       </section>
       <section className="flex flex-col gap-10">
         <h1 className="text-4xl font-bold">Proyectos</h1>
-        <CarruselContainer>
+        <CarruselContainer className={'space-x-6'}>
           {PROYECTOS.map((data, index) => (
             <CarruselCard
               key={index}

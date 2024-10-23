@@ -1,34 +1,37 @@
 import { BiLogoTypescript } from "react-icons/bi";
 import { FaCss3Alt, FaHtml5, FaNodeJs, FaPhp, FaPython, FaReact } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
-import { SiGooglecolab, SiMongodb, SiMysql, SiReactquery } from "react-icons/si";
+import { SiGooglecolab, SiMongodb, SiMysql, SiReactquery, SiTailwindcss } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
 
 const path = '/img/proyectos';
 export const PROYECTOS = [
+    // {
+    //     title: 'Cutly',
+    //     description: 'Acortador de enlaces gratuito y sin publicidad, diseñado para garantizar la seguridad informática al eliminar anuncios riesgosos.',
+    //     src: `${path}/curtly.webp`,
+    //     URL: 'https://dylancerv.github.io/Cutly/',
+    //     URL_Github: 'https://github.com/DylanCerv/Cutly',
+    //     tools: [
+    //         {name: 'JavaScript', icon: <RiJavascriptFill />},
+    //         {name: 'HTML', icon: <FaHtml5 />},
+    //         {name: 'CSS', icon: <FaCss3Alt />},
+    //     ]
+    // },
     {
-        title: 'Cutly',
-        description: 'Acortador de enlaces gratuito y sin publicidad, diseñado para garantizar la seguridad informática al eliminar anuncios riesgosos.',
-        src: `${path}/curtly.webp`,
-        URL: 'https://dylancerv.github.io/Cutly/',
-        URL_Github: 'https://github.com/DylanCerv/Cutly',
-        tools: [
-            {name: 'JavaScript', icon: <RiJavascriptFill />},
-            {name: 'HTML', icon: <FaHtml5 />},
-            {name: 'CSS', icon: <FaCss3Alt />},
-        ]
-    },
-    {
-        title: 'Data FMovies',
-        description: 'Aplicación web para mantenerte al día con los últimos estrenos de películas y series, así como conocer a sus actores más destacados.',
+        title: 'DFMovies',
+        description: 'Aplicación web diseñada para mantenerte al día con los últimos estrenos de películas y series, así como conocer a sus actores más destacados.',
         src: `${path}/data-movie.webp`,
         URL: 'https://data-fmovies.vercel.app/',
         URL_Github: 'https://github.com/DylanCerv/app-movie',
         tools: [
             {name: 'React', icon: <FaReact />},
-            {name: 'React Query', icon: <SiReactquery />},
+            {name: 'Tailwind', icon: <SiTailwindcss />},
             {name: 'CSS', icon: <FaCss3Alt />},
+            {name: 'Typescript', icon: <BiLogoTypescript />},
+            
+            // {name: 'React Query', icon: <SiReactquery />},
         ]
     },
     // {
@@ -83,23 +86,23 @@ export const PROYECTOS = [
     //         {name: 'Mysql', icon: <SiMysql />},
     //     ]
     // },
-    {
-        title: 'NewTech',
-        description: 'Portal de noticias para mantenerte informado sobre eventos mundiales y hasta en rincones estrechos del mundo.',
-        src: `${path}/netech.webp`,
-        URL: 'https://netech.vercel.app/',
-        URL_Github: 'https://github.com/DylanCerv/NeTech',
-        tools: [
-            {name: 'PHP', icon: <FaPhp />},
-            {name: 'CSS', icon: <FaCss3Alt />},
-            {name: 'HTML', icon: <FaHtml5 />},
-            {name: 'JavaScript', icon: <RiJavascriptFill />},
-            {name: 'Nextjs', icon: <TbBrandNextjs />},
-        ]
-    },
+    // {
+    //     title: 'NewTech',
+    //     description: 'Portal de noticias para mantenerte informado sobre eventos mundiales y hasta en rincones estrechos del mundo.',
+    //     src: `${path}/netech.webp`,
+    //     URL: 'https://netech.vercel.app/',
+    //     URL_Github: 'https://github.com/DylanCerv/NeTech',
+    //     tools: [
+    //         {name: 'PHP', icon: <FaPhp />},
+    //         {name: 'CSS', icon: <FaCss3Alt />},
+    //         {name: 'HTML', icon: <FaHtml5 />},
+    //         {name: 'JavaScript', icon: <RiJavascriptFill />},
+    //         {name: 'Nextjs', icon: <TbBrandNextjs />},
+    //     ]
+    // },
     {
         title: 'API NewTech',
-        description: 'Modificación de la API de noticias para uso en producción, basada en la NEWS API con ajustes en los endpoints.',
+        description: 'Se modifico la API de noticias para su uso en producción con el plan gratuito dentro de 000webhost.com, basada en la NEWS API con ajustes en los endpoints.',
         src: `${path}/netech-api.webp`,
         URL: '',
         URL_Github: 'https://github.com/DylanCerv/NeTech/tree/api',
