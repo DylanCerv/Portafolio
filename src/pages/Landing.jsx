@@ -56,7 +56,7 @@ export default function Landing() {
   return (
     <LayoutMain>
       <section id='sobre-mi' className="grid grid-cols-2 sm:grid-cols-4 gap-5 lg:grid-cols-8">
-        <Card className="flex flex-col gap-4 lg:gap-6 col-span-3 sm:col-span-4 md:col-span-2 sm:row-span-2 lg:col-span-4">
+        <Card className="flex flex-col gap-4 lg:gap-4 col-span-3 sm:col-span-4 md:col-span-2 sm:row-span-2 lg:col-span-4">
           <div className="text-3xl font-bold lg:text-4xl">
             <h1 className="font-semibold lg:font-bold color-azul !text-sky-300">
               {SOBRE_MI.name}
@@ -74,7 +74,7 @@ export default function Landing() {
               href={"/file/cvs/Es_Dylan_Espana_Cervantes.pdf"}
               download
             >
-              <FaRegFilePdf /> CV
+              <FaRegFilePdf /> Descargar CV
             </a>
           </div>
           <p className="font-medium text-gray-300">Email: <span className="font-normal text-gray-400 lg:leading-7">{CONTACT_INFO.mail}</span></p>
@@ -83,7 +83,7 @@ export default function Landing() {
             <p className="text-gray-400 lg:leading-7">{SOBRE_MI.phrase}</p>
           </div>
         </Card>
-        <Card className="flex items-center justify-center col-span-1 sm:col-span-2 lg:col-span-2 lg:row-span-2">
+        <Card className="flex items-center justify-center col-span-3 sm:col-span-2 lg:col-span-2 lg:row-span-2">
           <div className="relative w-fit">
             <h1 className="color-azul !text-sky-300 text-2xl sm:text-3xl lg:text-4xl font-bold">
               Ecuador
@@ -95,15 +95,23 @@ export default function Landing() {
             />
           </div>
         </Card>
-        <Card className="!px-2 !py-8 flex items-center text-center col-span-2 sm:col-span-2 lg:col-span-2 lg:row-span-2">
-          <h1 className="color-azul !text-sky-300 text-xl sm:text-3xl lg:text-4xl font-bold">
-            Desarrollador Full Stack (PHP, JS)
+        <Card className="!px-2 !py-8 flex flex-col items-center justify-center text-center gap-4 col-span-3 sm:col-span-2 lg:col-span-2 lg:row-span-2">
+          <h1 className="color-azul !text-sky-300 text-xl sm:text-xl lg:text-2xl font-semibold">
+            Web Developer
+          </h1>
+          <h1 className="color-azul !text-sky-300 text-xl sm:text-xl lg:text-2xl font-semibold">
+            Mobile Developer
+          </h1>
+          <h1 className="color-azul !text-sky-300 text-xl sm:text-xl lg:text-2xl font-semibold">
+            Full Stack Developer (PHP, JS)
           </h1>
         </Card>
         <Card className="!p-0 overflow-hidden col-span-3 sm:col-span-2 lg:col-span-3">
           <img className="h-full w-full" src="/img/grid/setup.webp" alt="" />
         </Card>
-        <Card className="hidden sm:block sm:!bg-white/[15%] lg:hidden flexs flex-col gap-2 text-center col-span-3 sm:col-span-2 lg:col-span-2"></Card>
+        <Card className="hidden sm:block sm:!bg-white/[15%] lg:hidden flexs flex-col gap-2 text-center col-span-3 sm:col-span-2 lg:col-span-2">
+          
+        </Card>
         <Card className="tech flex flex-col gap-2 col-span-3 sm:col-span-5 lg:row-span-3">
           <h1 className="text-2xl font-bold color-azul !text-sky-300">
             Tecnologías (Skills)
@@ -144,7 +152,7 @@ export default function Landing() {
           />
         </Card>
         <Card className="p-4 sm:p-10 flex items-center text-center col-span-1 sm:col-span-2 lg:col-span-4">
-          <h1 className="color-azul !text-sky-300 text-3xl mx-auto font-bold uppercase">
+          <h1 className="color-azul !text-sky-300 text-3xl mx-auto font-semibold uppercase">
             {userLocalTime}
           </h1>
         </Card>
@@ -162,7 +170,7 @@ export default function Landing() {
           </div>
         </Card>
         <Card className="flex flex-col justify-center col-span-3 font-bold sm:col-span-2 lg:col-span-4">
-          <div className="text-3xl mx-auto color-azul !text-sky-300">
+          <div className="text-3xl mx-auto color-azul !text-sky-300 font-semibold">
             <h1>{userLocalDay}</h1>
             <h1>{userLocalDate}</h1>
           </div>
@@ -171,10 +179,7 @@ export default function Landing() {
       <section id='experiencia' className="flex flex-col gap-10">
         <article>
           <h1 className="font-bold text-3xl">Experiencia</h1>
-          <p className="text-gray-400 mt-3">Me especializo en el desarrollo de Frontend y
-            Backend usando diferentes técnologias como: TypeScript, React.js, Node.js y PHP.
-            Incluso cuando me enfrento a problemas difíciles, sé cómo abordarlos
-            con paciencia, determinación y perseverancia.
+          <p className="text-gray-400 mt-3">Me especializo en el desarrollo de Frontend y Backend utilizando tecnologías como TypeScript, React.js, Node.js y PHP. Ante desafíos complejos, los enfrento con paciencia, determinación y perseverancia, siempre buscando soluciones efectivas y eficientes.
           </p>
         </article>
         <ol className="relative border-s border-gray-200 sm:ml-10 md:ml-20">
